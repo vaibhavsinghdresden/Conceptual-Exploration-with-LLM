@@ -1,0 +1,67 @@
+[
+    {
+        "imp id": 1,
+        "full_implication": " -> English: divide,English: split",
+        "result": "Confirmed"
+    },
+    {
+        "imp id": 2,
+        "full_implication": "English: divide,English: split,English: share -> English: separate",
+        "unit_implication": "English: divide,English: split,English: share -> English: separate",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "meaning": "to give a part of something to somebody",
+                    "word": [
+                        "English: divide",
+                        "English: share"
+                    ],
+                    "explanation": "The word 'divide' in English generally means to separate or part something into equal parts or shares. The word 'share' in English generally means to give a part of something to somebody. Although 'divide' and 'share' can have this meaning, 'separate' does not. 'Separate' generally means to isolate or divide something into parts, but it doesn't necessarily imply giving a part to somebody. 'Split' can also have this meaning in certain contexts, but it's not as common as 'divide' or 'share'.",
+                    "example": "For example, 'I will divide the cake among my friends' or 'I will share the cake with my friends' implies giving a part of the cake to somebody, whereas 'I will separate the cake into two parts' doesn't necessarily mean giving a part to somebody."
+                },
+                "attempt_outcome": "Invalid Counter example"
+            },
+            {
+                "try": 2,
+                "model_response": {
+                    "output": "NO",
+                    "meaning": "to distribute or dispense something",
+                    "word": [
+                        "English: divide",
+                        "English: split",
+                        "English: share"
+                    ],
+                    "explanation": "The words 'divide', 'split', and 'share' in English can all mean to distribute or dispense something, such as a resource or an object, among multiple people or things. However, 'separate' does not typically have this meaning, as it generally implies isolating or distinguishing something from others, rather than distributing it.",
+                    "example": "For example, 'I will divide the money among my friends', 'I will split the bill with my friends', or 'I will share the food with my friends' all imply distributing something, whereas 'I will separate the money into different accounts' does not necessarily mean distributing it among people."
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 999999,
+        "output_objects": [
+            "English: divide",
+            "English: share",
+            "English: split",
+            "English: separate"
+        ],
+        "output_attributes": [
+            "divide a single physical object into constituent parts",
+            "divide a set of elements into groups",
+            "mark the boundary",
+            "isolate constituent parts of a non-physical object",
+            "to distribute or dispense something"
+        ],
+        "implication_count": 2,
+        "implications_skipped": 0,
+        "implications_confirmed": 1,
+        "implications_rejected": 1,
+        "invalid_counter_examples": 1,
+        "json_format_error": 0,
+        "word_already_present_error": 0
+    }
+]

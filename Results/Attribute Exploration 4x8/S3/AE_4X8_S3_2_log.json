@@ -1,0 +1,1478 @@
+[
+    {
+        "imp id": 1,
+        "full_implication": "distribute among themselves -> distribute among others",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "word": "French : se partager",
+                    "meaning": [
+                        "distribute among themselves",
+                        "distribute among others"
+                    ],
+                    "language": "French",
+                    "explanation": "The French word 'se partager' generally means to share something among themselves. Although it can be used in the context of distributing something among others, its primary usage is among themselves. However, another word that fits the criteria is 'partager' which is not in the checked list but has similar meanings. Yet, 'se partager' is more suitable for the meaning 'distribute among themselves'.",
+                    "example": "Les deux conspirateurs se sont partag\u00e9s l'argent. (The two conspirators shared the money among themselves.) Les enfants ont partag\u00e9 les jouets entre eux et leurs cousins. (The children shared the toys among themselves and their cousins.)"
+                },
+                "attempt_outcome": "Invalid Counter example"
+            },
+            {
+                "try": 2,
+                "model_response": {
+                    "output": "NO",
+                    "word": "Portuguese : ratear",
+                    "meaning": [
+                        "distribute among themselves"
+                    ],
+                    "language": "Portuguese",
+                    "explanation": "The Portuguese word 'ratear' generally means to divide or share something among themselves, but it does not convey the meaning of distributing something among others. This word is not in the checked list and serves as a counterexample to the hypothesis.",
+                    "example": "Eles ratearam o dinheiro entre si. (They divided the money among themselves.)"
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 2,
+        "full_implication": "distribute among others -> distribute among themselves",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "word": "Spanish : repartir",
+                    "meaning": [
+                        "distribute among others",
+                        "divide a single physical object into constituent parts",
+                        "divide a set of elements into groups",
+                        "put into containers"
+                    ],
+                    "language": "Spanish",
+                    "explanation": "The Spanish word 'repartir' generally means to distribute or divide something among people or things. It can be used to convey the meaning of distributing something among others, but it does not necessarily imply distribution among themselves. For example, 'repartir' can be used to describe dividing a cake into equal pieces for a group of people, but it would not typically be used to describe two people dividing something between themselves.",
+                    "example": "Repartir el pastel en ocho porciones para los invitados. (Divide the cake into eight portions for the guests.), Repartir los juguetes entre los ni\u00f1os. (Distribute the toys among the children.), Repartir las tareas en cuatro grupos. (Divide the tasks into four groups.), Repartir la mercanc\u00eda en cajas. (Put the merchandise into boxes.)"
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 3,
+        "full_implication": "cause to move or be apart -> divide a set of elements into groups , mark the boundary , isolate constituent parts of a non-physical object",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "word": "English : disperse",
+                    "meaning": [
+                        "cause to move or be apart",
+                        "divide a set of elements into groups"
+                    ],
+                    "language": "English",
+                    "explanation": "The word 'disperse' generally means to spread out or scatter in different directions. It conveys the meaning 'cause to move or be apart' as it involves moving people or things away from each other. However, it does not convey the meanings 'mark the boundary' or 'isolate constituent parts of a non-physical object'. It can also convey the meaning 'divide a set of elements into groups' in certain contexts, such as dispersing a crowd into smaller groups.",
+                    "example": "The police used tear gas to disperse the crowd, causing people to move or be apart. The students were dispersed into smaller groups for the project, dividing a set of elements into groups."
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 4,
+        "full_implication": "put into containers -> divide a set of elements into groups",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "word": "French : doser",
+                    "meaning": [
+                        "put into containers"
+                    ],
+                    "language": "French",
+                    "explanation": "The French word 'doser' generally means to put a measured amount of something into a container. It does not convey the meaning of dividing a set of elements into groups. The word is mainly used in contexts like measuring ingredients for cooking or packaging products.",
+                    "example": "Doser le sucre dans les sachets pour la vente. (Put the sugar into bags for sale.)"
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 5,
+        "full_implication": "distribute among themselves , put into containers -> isolate constituent parts of a non-physical object , divide a set of elements into groups , distribute among others , divide a single physical object into constituent parts , mark the boundary",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "word": "French : r\u00e9partir",
+                    "meaning": [
+                        "divide a single physical object into constituent parts",
+                        "divide a set of elements into groups",
+                        "put into containers",
+                        "distribute among others",
+                        "distribute among themselves"
+                    ],
+                    "language": "French",
+                    "explanation": "The French word 'r\u00e9partir' generally means to distribute or divide something among people or things. It can be used to convey the meanings 'divide a single physical object into constituent parts', 'divide a set of elements into groups', 'put into containers', 'distribute among others', and 'distribute among themselves'. However, it does not convey the meanings 'isolate constituent parts of a non-physical object', 'mark the boundary', or 'cause to move or be apart'.",
+                    "example": "R\u00e9partir les pi\u00e8ces du g\u00e2teau entre les invit\u00e9s. (Divide the cake pieces among the guests.), R\u00e9partir les \u00e9l\u00e8ves en groupes de travail. (Divide the students into work groups.), R\u00e9partir les m\u00e9dicaments dans les bo\u00eetes. (Put the medications into boxes.), R\u00e9partir l'argent entre les deux associ\u00e9s. (Divide the money between the two associates.), R\u00e9partir les t\u00e2ches entre les membres de l'\u00e9quipe. (Divide the tasks among the team members.)"
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 6,
+        "full_implication": "distribute among others , put into containers -> divide a set of elements into groups , divide a single physical object into constituent parts",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "word": "German : verteilen",
+                    "meaning": [
+                        "distribute among others",
+                        "put into containers",
+                        "divide a set of elements into groups"
+                    ],
+                    "language": "German",
+                    "explanation": "The German word 'verteilen' generally means to distribute something. It can be used to distribute objects among others, put things into containers, and divide a set of elements into groups. However, it does not convey the meaning of dividing a single physical object into constituent parts.",
+                    "example": "Ich werde das Essen unter den G\u00e4sten verteilen. (I will distribute the food among the guests.), Die \u00c4pfel wurden in Kisten verteilt. (The apples were distributed into boxes.), Die Sch\u00fcler wurden in Gruppen verteilt. (The students were divided into groups.)"
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 7,
+        "full_implication": "cause to move or be apart , put into containers -> divide a set of elements into groups , mark the boundary , isolate constituent parts of a non-physical object",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "word": "English : scatter",
+                    "meaning": [
+                        "cause to move or be apart",
+                        "put into containers",
+                        "divide a set of elements into groups"
+                    ],
+                    "language": "English",
+                    "explanation": "The word 'scatter' generally means to throw or send things in different directions, often in a random way. It can be used to convey the meaning of 'cause to move or be apart' and 'put into containers'. However, it does not convey the meaning of 'mark the boundary' or 'isolate constituent parts of a non-physical object'.",
+                    "example": "Scatter the seeds across the field, making sure to put some in each of the small containers. The kids will scatter when the bell rings, moving to their next class."
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 8,
+        "full_implication": "isolate constituent parts of a non-physical object -> divide a set of elements into groups , mark the boundary",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "word": "English : compartmentalize",
+                    "meaning": [
+                        "isolate constituent parts of a non-physical object",
+                        "divide a single physical object into constituent parts"
+                    ],
+                    "language": "English",
+                    "explanation": "The word 'compartmentalize' generally means to separate or isolate parts of something, especially a non-physical object like the mind or a concept, into distinct sections or compartments. It can also be used to divide a physical object into parts. However, it does not convey the meanings 'divide a set of elements into groups' or 'mark the boundary'.",
+                    "example": "The psychologist helped her patient to compartmentalize their emotions, separating the happy memories from the sad ones. Additionally, the carpenter used a saw to compartmentalize the wood into smaller planks for the furniture."
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 9,
+        "full_implication": "distribute among themselves , isolate constituent parts of a non-physical object -> divide a set of elements into groups , distribute among others , divide a single physical object into constituent parts , mark the boundary",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "word": "English : apportion",
+                    "meaning": [
+                        "distribute among others",
+                        "distribute among themselves",
+                        "isolate constituent parts of a non-physical object"
+                    ],
+                    "language": "English",
+                    "explanation": "The word 'apportion' generally means to distribute or allocate something, especially duties or resources, in a fair and proportionate way. It can be used to convey the meanings 'distribute among others' and 'distribute among themselves', as well as 'isolate constituent parts of a non-physical object'. However, it does not convey the meanings 'divide a set of elements into groups', 'divide a single physical object into constituent parts', or 'mark the boundary'.",
+                    "example": "The company will apportion the profits among the shareholders. The team will apportion the tasks among themselves. The researcher will apportion the data into sections for easier analysis."
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 10,
+        "full_implication": "distribute among others , isolate constituent parts of a non-physical object -> distribute among themselves",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "word": "English : allot",
+                    "meaning": [
+                        "distribute among others",
+                        "isolate constituent parts of a non-physical object",
+                        "divide a set of elements into groups"
+                    ],
+                    "language": "English",
+                    "explanation": "The word 'allot' is an English word that means to distribute or assign something to someone or a group of people. It can also be used to divide a non-physical object into parts or sections. However, it does not convey the meaning of 'distribute among themselves'. The general meaning of 'allot' is to give a share or portion of something to someone or a group.",
+                    "example": "The company will allot the tasks to each team member. The professor will allot 30 minutes for each presentation. The city will allot a certain amount of funding to each community project."
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 11,
+        "full_implication": "cause to move or be apart , isolate constituent parts of a non-physical object -> divide a set of elements into groups , mark the boundary",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "word": "English : dissociate",
+                    "meaning": [
+                        "cause to move or be apart",
+                        "isolate constituent parts of a non-physical object"
+                    ],
+                    "language": "English",
+                    "explanation": "The word 'dissociate' generally means to separate or disconnect something from something else. It can be used to describe the act of causing things to move or be apart, or to isolate constituent parts of a non-physical object, such as a concept or an idea. However, it does not typically convey the meanings 'divide a set of elements into groups' or 'mark the boundary'.",
+                    "example": "The therapist helped her patient dissociate from the traumatic memory, and the company will dissociate itself from the troubled partner to avoid further financial losses."
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 12,
+        "full_implication": "cause to move or be apart , isolate constituent parts of a non-physical object , distribute among themselves -> divide a set of elements into groups , distribute among others , divide a single physical object into constituent parts , mark the boundary",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "word": "English : sever",
+                    "meaning": [
+                        "cause to move or be apart",
+                        "isolate constituent parts of a non-physical object",
+                        "distribute among themselves",
+                        "put into containers"
+                    ],
+                    "language": "English",
+                    "explanation": "The word 'sever' generally means to cut or separate something. It can be used to convey the meanings 'cause to move or be apart', 'isolate constituent parts of a non-physical object', and 'distribute among themselves'. However, it does not convey the meanings 'divide a set of elements into groups', 'distribute among others', 'divide a single physical object into constituent parts', or 'mark the boundary'.",
+                    "example": "The company will sever ties with its partner, causing them to move apart. The severance package will be distributed among the former employees. The contract will sever the relationship into distinct sections, making it easier to isolate constituent parts."
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 13,
+        "full_implication": "distribute among others , cause to move or be apart , isolate constituent parts of a non-physical object -> divide a set of elements into groups , divide a single physical object into constituent parts , mark the boundary , distribute among themselves",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "word": "English : dispense",
+                    "meaning": [
+                        "distribute among others",
+                        "cause to move or be apart",
+                        "isolate constituent parts of a non-physical object",
+                        "put into containers"
+                    ],
+                    "language": "English",
+                    "explanation": "The word 'dispense' generally means to give out or distribute something, especially from a store or supply. It can also mean to separate or isolate parts of something non-physical. However, it does not convey the meanings 'divide a set of elements into groups', 'divide a single physical object into constituent parts', 'mark the boundary', or 'distribute among themselves'.",
+                    "example": "The pharmacy will dispense the medication to patients (distribute among others), the teacher will dispense the students to their new classrooms (cause to move or be apart), the researcher will dispense the survey into sections (isolate constituent parts of a non-physical object), and the store will dispense the goods into boxes (put into containers)."
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 14,
+        "full_implication": "distribute among others , cause to move or be apart , isolate constituent parts of a non-physical object , distribute among themselves -> divide a set of elements into groups , divide a single physical object into constituent parts , mark the boundary",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "word": "English : parcel",
+                    "meaning": [
+                        "distribute among others",
+                        "cause to move or be apart",
+                        "isolate constituent parts of a non-physical object",
+                        "distribute among themselves",
+                        "put into containers"
+                    ],
+                    "language": "English",
+                    "explanation": "The word 'parcel' generally means to divide or distribute something into parts or portions. It can be used to distribute objects or tasks among others, cause things to move or be apart, isolate parts of a non-physical object, or distribute things among themselves. However, it does not convey the meanings 'divide a set of elements into groups', 'divide a single physical object into constituent parts', or 'mark the boundary'.",
+                    "example": "Examples of 'parcel' include: 'The company will parcel out the tasks among the team members' (distribute among others), 'The storm will parcel the crowd, causing them to run for shelter' (cause to move or be apart), 'The teacher will parcel the lesson into sections for easier understanding' (isolate constituent parts of a non-physical object), 'The two friends will parcel the money between them' (distribute among themselves), and 'She will parcel the gifts into boxes for shipping' (put into containers)."
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 15,
+        "full_implication": "mark the boundary -> divide a set of elements into groups , isolate constituent parts of a non-physical object",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "word": "English : demarcate",
+                    "meaning": [
+                        "mark the boundary",
+                        "divide a set of elements into groups"
+                    ],
+                    "language": "English",
+                    "explanation": "The word 'demarcate' generally means to mark or fix the boundaries or limits of something. It can be used to divide a set of elements into groups by marking the boundaries between them. However, it does not convey the meaning of isolating constituent parts of a non-physical object.",
+                    "example": "The city council decided to demarcate the industrial area from the residential area by building a wall. The company will demarcate the different departments within the building by using separate entrances and signage."
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 16,
+        "full_implication": "divide a set of elements into groups , distribute among themselves -> distribute among others , divide a single physical object into constituent parts",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "word": "Portuguese : dividir",
+                    "meaning": [
+                        "divide a set of elements into groups",
+                        "distribute among themselves",
+                        "divide a single physical object into constituent parts",
+                        "mark the boundary",
+                        "isolate constituent parts of a non-physical object",
+                        "put into containers",
+                        "cause to move or be apart"
+                    ],
+                    "language": "Portuguese",
+                    "explanation": "The Portuguese word 'dividir' generally means to divide or separate something into parts. It can be used to divide a set of elements into groups, distribute something among themselves, divide a single physical object into constituent parts, mark the boundary, isolate constituent parts of a non-physical object, put into containers, and cause to move or be apart. However, 'dividir' does not necessarily convey the meaning 'distribute among others' in all contexts, which is a required meaning to test the hypothesis. But in this case 'dividir' does have the meaning 'distribute among others'. On the other hand, the word 'ratear' in Portuguese is a better example because it only has the meaning 'distribute among themselves'. Another word 'partilhar' in Portuguese has the meanings 'distribute among others' and 'distribute among themselves' but does not have the meaning 'divide a single physical object into constituent parts'.",
+                    "example": "Dividir os alunos em grupos: to divide the students into groups. Dividir a heran\u00e7a entre os irm\u00e3os: to divide the inheritance among the brothers. Dividir um bolo em peda\u00e7os: to divide a cake into pieces. Uma cerca que divide a propriedade: a fence that marks the boundary of the property. Dividir as tarefas em etapas: to isolate constituent parts of a non-physical object, in this case, tasks. Colocar os legumes em sacos para dividir entre os clientes: to put vegetables into bags to distribute among the clients. A briga os dividir\u00e1: the fight will cause them to move or be apart."
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 17,
+        "full_implication": "divide a set of elements into groups , distribute among others , distribute among themselves -> divide a single physical object into constituent parts",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "word": "German : aufteilen",
+                    "meaning": [
+                        "divide a set of elements into groups",
+                        "distribute among others",
+                        "distribute among themselves",
+                        "put into containers"
+                    ],
+                    "language": "German",
+                    "explanation": "The German word 'aufteilen' generally means to divide or distribute something among others. It can be used to divide a set of elements into groups, distribute something among others, or distribute something among themselves. However, it does not convey the meaning of dividing a single physical object into constituent parts. For example, 'aufteilen' can be used to divide tasks among team members or to distribute goods among customers, but it would not be used to divide a physical object like a cake into smaller pieces.",
+                    "example": "Die Aufgaben werden unter den Teammitgliedern aufgeteilt. (The tasks are divided among the team members.), Die Gewinne werden unter den Investoren aufgeteilt. (The profits are distributed among the investors.), Die Medikamente werden in den Beh\u00e4ltern aufgeteilt. (The medicines are put into containers.)"
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 18,
+        "full_implication": "divide a set of elements into groups , cause to move or be apart , distribute among themselves -> divide a single physical object into constituent parts , mark the boundary , isolate constituent parts of a non-physical object",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "word": "English : partition",
+                    "meaning": [
+                        "divide a set of elements into groups",
+                        "cause to move or be apart",
+                        "distribute among themselves",
+                        "mark the boundary"
+                    ],
+                    "language": "English",
+                    "explanation": "The word 'partition' generally means to divide something into parts or sections. It can be used to divide a set of elements into groups, cause things to move or be apart, distribute something among themselves, and mark the boundary. However, it does not convey the meanings 'divide a single physical object into constituent parts' and 'isolate constituent parts of a non-physical object'.",
+                    "example": "The company will partition the employees into teams, the partition between the rooms will cause the kids to be apart, the partners will partition the profits among themselves, and the fence will partition the land into two sections."
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 19,
+        "full_implication": "divide a set of elements into groups , distribute among others , cause to move or be apart -> divide a single physical object into constituent parts , mark the boundary , isolate constituent parts of a non-physical object , distribute among themselves",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "word": "English : distribute",
+                    "meaning": [
+                        "divide a set of elements into groups",
+                        "distribute among others",
+                        "cause to move or be apart"
+                    ],
+                    "language": "English",
+                    "explanation": "The word 'distribute' generally means to spread or disperse something among people or places. It can be used to divide a set of elements into groups, distribute among others, and cause to move or be apart. However, it does not convey the meanings 'divide a single physical object into constituent parts', 'mark the boundary', 'isolate constituent parts of a non-physical object', or 'distribute among themselves'.",
+                    "example": "The company will distribute the tasks among the team members (divide a set of elements into groups), the charity will distribute food to the needy (distribute among others), and the new policy will distribute people across different regions (cause to move or be apart)."
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 20,
+        "full_implication": "divide a set of elements into groups , distribute among others , cause to move or be apart , distribute among themselves -> divide a single physical object into constituent parts , mark the boundary , isolate constituent parts of a non-physical object",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "word": "English : distribute",
+                    "meaning": [
+                        "divide a set of elements into groups",
+                        "distribute among others",
+                        "cause to move or be apart",
+                        "distribute among themselves"
+                    ],
+                    "language": "English",
+                    "explanation": "The word 'distribute' in English conveys the meanings 'divide a set of elements into groups', 'distribute among others', 'cause to move or be apart', and 'distribute among themselves'. However, it does not convey the meanings 'divide a single physical object into constituent parts', 'mark the boundary', or 'isolate constituent parts of a non-physical object'. The general meaning of 'distribute' is to spread or disperse something among people or places. It is often used in contexts such as delivering goods, assigning tasks, or dispersing information.",
+                    "example": "The company will distribute the products to stores across the country. The teacher will distribute the homework assignments to the students. The fans were distributed throughout the stadium, cheering for their team."
+                },
+                "attempt_outcome": "Attribute already present error"
+            },
+            {
+                "try": 2,
+                "model_response": {
+                    "output": "NO",
+                    "word": "German : teilen",
+                    "meaning": [
+                        "divide a set of elements into groups",
+                        "distribute among others",
+                        "cause to move or be apart",
+                        "distribute among themselves",
+                        "put into containers"
+                    ],
+                    "language": "German",
+                    "explanation": "The word 'teilen' in German conveys the meanings 'divide a set of elements into groups', 'distribute among others', 'cause to move or be apart', and 'distribute among themselves'. Additionally, it can also mean 'put into containers'. However, it does not convey the meanings 'divide a single physical object into constituent parts', 'mark the boundary', or 'isolate constituent parts of a non-physical object'. The general meaning of 'teilen' is to share or divide something among people or things.",
+                    "example": "Die Sch\u00fcler teilen sich in Gruppen auf. Die Firma teilt die Gewinne unter den Mitarbeitern auf. Die Leute teilen sich den Raum, um zu arbeiten."
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 21,
+        "full_implication": "divide a set of elements into groups , distribute among others , cause to move or be apart , put into containers -> distribute among themselves",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "word": "German : sortieren",
+                    "meaning": [
+                        "divide a set of elements into groups",
+                        "distribute among others",
+                        "cause to move or be apart",
+                        "put into containers"
+                    ],
+                    "language": "German",
+                    "explanation": "The German word 'sortieren' generally means to sort or categorize things. It can be used to divide a set of elements into groups, distribute among others, cause to move or be apart, and put into containers. However, it does not convey the meaning of 'distribute among themselves'.",
+                    "example": "Example sentences: 'Die B\u00fccher sortieren sich in verschiedene Kategorien' (The books are sorted into different categories), 'Die Pakete werden sortiert und an die Kunden verteilt' (The packages are sorted and distributed to the customers), 'Die Menschen sortieren sich in verschiedene Gruppen' (The people are sorted into different groups), 'Die Waren werden in Container sortiert' (The goods are sorted into containers)"
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 22,
+        "full_implication": "divide a set of elements into groups , distribute among themselves , isolate constituent parts of a non-physical object -> divide a single physical object into constituent parts , mark the boundary",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "word": "German : unterteilen",
+                    "meaning": [
+                        "divide a set of elements into groups",
+                        "distribute among themselves",
+                        "isolate constituent parts of a non-physical object",
+                        "put into containers",
+                        "cause to move or be apart"
+                    ],
+                    "language": "German",
+                    "explanation": "The German word 'unterteilen' generally means to subdivide or categorize. It can be used to divide a set of elements into groups, distribute something among themselves, or isolate constituent parts of a non-physical object. However, it does not convey the meanings 'divide a single physical object into constituent parts' or 'mark the boundary'.",
+                    "example": "Die Sch\u00fcler werden in vier Gruppen unterteilt, um das Projekt zu bearbeiten. (The students are divided into four groups to work on the project.) Die Erben unterteilen das Erbe unter sich. (The heirs divide the inheritance among themselves.) Die Forscher unterteilen die Daten in verschiedene Kategorien. (The researchers subdivide the data into different categories.)"
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 23,
+        "full_implication": "divide a set of elements into groups , distribute among others , distribute among themselves , isolate constituent parts of a non-physical object -> divide a single physical object into constituent parts , mark the boundary",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "word": "German : unterteilen",
+                    "meaning": [
+                        "divide a set of elements into groups",
+                        "put into containers",
+                        "cause to move or be apart",
+                        "distribute among themselves",
+                        "isolate constituent parts of a non-physical object"
+                    ],
+                    "language": "German",
+                    "explanation": "The German word 'unterteilen' generally means to divide or subdivide something into smaller parts. It can be used to divide a set of elements into groups, put things into containers, cause things to move or be apart, distribute something among themselves, and isolate constituent parts of a non-physical object. However, it does not convey the meanings 'divide a single physical object into constituent parts' and 'mark the boundary'.",
+                    "example": "Die Sch\u00fcler werden in vier Gruppen unterteilt. (The students are divided into four groups.), Die \u00c4pfel werden in Kisten unterteilt. (The apples are put into boxes.), Die Freunde werden durch die Stadt unterteilt. (The friends are spread out across the city.), Das Erbe wird unter den Geschwistern unterteilt. (The inheritance is divided among the siblings.), Die Arbeit wird in kleinere Aufgaben unterteilt. (The work is divided into smaller tasks.)"
+                },
+                "attempt_outcome": "Attribute already present error"
+            },
+            {
+                "try": 2,
+                "model_response": {
+                    "output": "NO",
+                    "word": "English : prorate",
+                    "meaning": [
+                        "divide a set of elements into groups",
+                        "isolate constituent parts of a non-physical object",
+                        "distribute among others",
+                        "distribute among themselves"
+                    ],
+                    "language": "English",
+                    "explanation": "The English word 'prorate' generally means to divide or allocate something proportionally. It can be used to divide a set of elements into groups, isolate constituent parts of a non-physical object, and distribute something among others or themselves. However, it does not convey the meanings 'divide a single physical object into constituent parts' and 'mark the boundary'.",
+                    "example": "The company will prorate the costs among the departments. (The company will divide the costs proportionally among the departments.), The tasks will be prorated based on the employees' skills. (The tasks will be divided proportionally based on the employees' skills.), The inheritance will be prorated among the heirs. (The inheritance will be divided proportionally among the heirs.)"
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 24,
+        "full_implication": "divide a set of elements into groups , distribute among others , cause to move or be apart , isolate constituent parts of a non-physical object -> divide a single physical object into constituent parts , mark the boundary , distribute among themselves",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "word": "German : trennen",
+                    "meaning": [
+                        "divide a set of elements into groups",
+                        "distribute among others",
+                        "cause to move or be apart",
+                        "isolate constituent parts of a non-physical object",
+                        "put into containers"
+                    ],
+                    "language": "German",
+                    "explanation": "The German word 'trennen' generally means to separate or divide something. It can be used to divide a set of elements into groups, distribute among others, cause to move or be apart, and isolate constituent parts of a non-physical object. Additionally, it can be used to put into containers. However, it does not convey the meanings 'divide a single physical object into constituent parts', 'mark the boundary', or 'distribute among themselves'.",
+                    "example": "Example sentences: 'Die Sch\u00fcler trennen sich in Gruppen' (The students divide into groups), 'Die Firma trennt die Produkte in verschiedene Kategorien' (The company divides the products into different categories), 'Die Freunde trennen sich nach dem Streit' (The friends move apart after the argument), 'Die Forscher trennen die Daten in verschiedene Teile' (The researchers isolate the data into different parts), 'Die Arbeiter trennen die Ware in verschiedene Kisten' (The workers put the goods into different boxes)."
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 25,
+        "full_implication": "divide a set of elements into groups , distribute among others , cause to move or be apart , distribute among themselves , isolate constituent parts of a non-physical object -> divide a single physical object into constituent parts , mark the boundary",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "word": "German : trennen",
+                    "meaning": [
+                        "divide a set of elements into groups",
+                        "isolate constituent parts of a non-physical object",
+                        "put into containers",
+                        "cause to move or be apart",
+                        "distribute among others"
+                    ],
+                    "language": "German",
+                    "explanation": "The German word 'trennen' generally means to separate or divide something. It can be used to divide a set of elements into groups, isolate constituent parts of a non-physical object, put into containers, cause to move or be apart, and distribute among others. However, it does not convey the meanings 'divide a single physical object into constituent parts' and 'mark the boundary'.",
+                    "example": "Example sentences for 'trennen': Wir m\u00fcssen die Kinder in Gruppen trennen (We need to divide the children into groups), Die Firma trennt sich von ihren Mitarbeitern (The company is separating from its employees), Wir trennen die W\u00e4sche in verschiedene Container (We separate the laundry into different containers), Die Explosion hat die Menschen getrennt (The explosion caused the people to move apart), Die Firma verteilt die Gewinne unter den Mitarbeitern, aber das Wort 'trennen' wird hier nicht verwendet, stattdessen wird 'verteilen' verwendet (The company distributes the profits among the employees, but the word 'trennen' is not used here, instead 'verteilen' is used)."
+                },
+                "attempt_outcome": "Attribute already present error"
+            },
+            {
+                "try": 2,
+                "model_response": {
+                    "output": "NO",
+                    "word": "Dutch : scheiden",
+                    "meaning": [
+                        "divide a set of elements into groups",
+                        "isolate constituent parts of a non-physical object",
+                        "cause to move or be apart",
+                        "distribute among others",
+                        "distribute among themselves"
+                    ],
+                    "language": "Dutch",
+                    "explanation": "The Dutch word 'scheiden' generally means to separate or divide something. It can be used to divide a set of elements into groups, isolate constituent parts of a non-physical object, cause to move or be apart, distribute among others, and distribute among themselves. However, it does not convey the meanings 'divide a single physical object into constituent parts' and 'mark the boundary'.",
+                    "example": "Example sentences for 'scheiden': We moeten de kinderen in groepen scheiden (We need to divide the children into groups), Het bedrijf scheidt zich van zijn werknemers (The company is separating from its employees), De explosie heeft de mensen gescheiden (The explosion caused the people to move apart), De winst wordt onder de aandeelhouders gescheiden (The profit is distributed among the shareholders), De twee vrienden scheiden hun bezittingen (The two friends are dividing their possessions among themselves)."
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 26,
+        "full_implication": "divide a set of elements into groups , distribute among others , put into containers , distribute among themselves , isolate constituent parts of a non-physical object -> divide a single physical object into constituent parts , mark the boundary",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "word": "German : teilen",
+                    "meaning": [
+                        "divide a set of elements into groups",
+                        "put into containers",
+                        "cause to move or be apart",
+                        "distribute among others",
+                        "distribute among themselves"
+                    ],
+                    "language": "German",
+                    "explanation": "The German word 'teilen' generally means to divide or share something. It can be used to divide a set of elements into groups, put things into containers, cause things to move or be apart, and distribute things among others or themselves. However, it does not convey the meanings 'divide a single physical object into constituent parts' or 'mark the boundary'.",
+                    "example": "Die Sch\u00fcler teilen sich in Gruppen auf. (The students divide themselves into groups.), Die \u00c4pfel teilen wir in K\u00f6rbe. (We put the apples into baskets.), Die Freunde teilen sich den Gewinn. (The friends share the profit.), Die Stadt teilt sich in verschiedene Bezirke. (The city divides itself into different districts.), Die Lehrer teilen die Sch\u00fcler in Klassen ein. (The teachers put the students into classes.)"
+                },
+                "attempt_outcome": "Attribute already present error"
+            },
+            {
+                "try": 2,
+                "model_response": {
+                    "output": "NO",
+                    "word": "Italian : suddividere",
+                    "meaning": [
+                        "divide a set of elements into groups",
+                        "put into containers",
+                        "distribute among others",
+                        "distribute among themselves",
+                        "isolate constituent parts of a non-physical object"
+                    ],
+                    "language": "Italian",
+                    "explanation": "The Italian word 'suddividere' generally means to subdivide or further divide something. It can be used to divide a set of elements into groups, put things into containers, distribute things among others or themselves, and isolate constituent parts of a non-physical object. However, it does not convey the meanings 'divide a single physical object into constituent parts' or 'mark the boundary'.",
+                    "example": "I compiti sono suddivisi in tre gruppi. (The tasks are divided into three groups.), Le merci sono suddivise in casse. (The goods are put into boxes.), Il premio \u00e8 suddiviso tra i vincitori. (The prize is shared among the winners.), Le spese sono suddivise tra gli amici. (The expenses are divided among the friends.), Il documento \u00e8 suddiviso in sezioni. (The document is divided into sections.)"
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 27,
+        "full_implication": "divide a set of elements into groups , distribute among others , cause to move or be apart , put into containers , distribute among themselves , isolate constituent parts of a non-physical object -> divide a single physical object into constituent parts , mark the boundary",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "word": "German : aussortieren",
+                    "meaning": [
+                        "divide a set of elements into groups",
+                        "distribute among others",
+                        "cause to move or be apart",
+                        "put into containers",
+                        "distribute among themselves",
+                        "isolate constituent parts of a non-physical object"
+                    ],
+                    "language": "German",
+                    "explanation": "The German word 'aussortieren' generally means to sort out or separate. It can be used to divide a set of elements into groups, distribute among others, cause to move or be apart, put into containers, distribute among themselves, and isolate constituent parts of a non-physical object. However, it does not convey the meanings 'divide a single physical object into constituent parts' and 'mark the boundary'.",
+                    "example": "Example sentences: 'Die B\u00fccher werden nach Genre aussortiert' (The books are sorted by genre), 'Die Firma wird ihre Mitarbeiter aussortieren und in verschiedene Abteilungen verteilen' (The company will sort out its employees and distribute them to different departments), 'Die Kinder werden nach Alter aussortiert und in verschiedene Gruppen eingeteilt' (The children are sorted by age and divided into different groups)"
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 28,
+        "full_implication": "divide a set of elements into groups , distribute among others , mark the boundary -> divide a single physical object into constituent parts , distribute among themselves , isolate constituent parts of a non-physical object",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "word": "German : grenzen",
+                    "meaning": [
+                        "divide a set of elements into groups",
+                        "mark the boundary",
+                        "distribute among others"
+                    ],
+                    "language": "German",
+                    "explanation": "The German word 'grenzen' generally means to mark or define boundaries. It can be used to divide a set of elements into groups and distribute among others, but it does not convey the meanings of dividing a single physical object into constituent parts, distributing among themselves, or isolating constituent parts of a non-physical object.",
+                    "example": "Die Stadt grenzt an den Fluss und teilt die Region in zwei Teile. (The city borders the river and divides the region into two parts.), Die Firma grenzt ihre Zielgruppe und verteilt ihre Werbemittel entsprechend. (The company defines its target group and distributes its advertising materials accordingly.), Die Regierung grenzt die neuen Gebiete und teilt sie unter den B\u00fcrgern auf. (The government defines the new areas and distributes them among the citizens.)"
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 29,
+        "full_implication": "divide a set of elements into groups , distribute among others , mark the boundary , distribute among themselves -> divide a single physical object into constituent parts , isolate constituent parts of a non-physical object",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "word": "German : grenzen",
+                    "meaning": [
+                        "divide a set of elements into groups",
+                        "mark the boundary",
+                        "distribute among others"
+                    ],
+                    "language": "German",
+                    "explanation": "The German word 'grenzen' generally means to mark or set boundaries. It can be used to divide a set of elements into groups, mark the boundary between two areas, and distribute something among others. However, it does not convey the meanings 'divide a single physical object into constituent parts' or 'isolate constituent parts of a non-physical object'.",
+                    "example": "Die Stadt grenzt an den Fluss. (The city borders the river.), Die Lehrer grenzen die Sch\u00fcler in Gruppen ein. (The teachers divide the students into groups.), Die Firma grenzt ihre M\u00e4rkte nach Regionen ein und verteilt ihre Produkte entsprechend. (The company divides its markets by region and distributes its products accordingly.)"
+                },
+                "attempt_outcome": "Attribute already present error"
+            },
+            {
+                "try": 2,
+                "model_response": {
+                    "output": "YES"
+                },
+                "attempt_outcome": "Implication Accepted"
+            }
+        ],
+        "result": "Implication Confirmed"
+    },
+    {
+        "imp id": 30,
+        "full_implication": "divide a set of elements into groups , distribute among others , cause to move or be apart , mark the boundary -> divide a single physical object into constituent parts , distribute among themselves , isolate constituent parts of a non-physical object",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "word": "German : grenzen",
+                    "meaning": [
+                        "divide a set of elements into groups",
+                        "mark the boundary",
+                        "distribute among others"
+                    ],
+                    "language": "German",
+                    "explanation": "The German word 'grenzen' generally means to limit or border something. It can be used to divide a set of elements into groups, mark the boundary, and distribute among others. However, it does not convey the meanings 'divide a single physical object into constituent parts', 'distribute among themselves', or 'isolate constituent parts of a non-physical object'.",
+                    "example": "Die Stadt grenzt an den Fluss. (The city borders the river.), Die Sch\u00fcler werden in Gruppen grenzen. (The students will be divided into groups.), Die Aufgaben werden unter den Teams grenzen. (The tasks will be distributed among the teams.)"
+                },
+                "attempt_outcome": "Attribute already present error"
+            },
+            {
+                "try": 2,
+                "model_response": {
+                    "output": "NO",
+                    "word": "Dutch : afbakenen",
+                    "meaning": [
+                        "divide a set of elements into groups",
+                        "mark the boundary",
+                        "distribute among others",
+                        "cause to move or be apart"
+                    ],
+                    "language": "Dutch",
+                    "explanation": "The Dutch word 'afbakenen' generally means to demarcate or set boundaries. It can be used to divide a set of elements into groups, mark the boundary, distribute among others, and cause to move or be apart. However, it does not convey the meanings 'divide a single physical object into constituent parts', 'distribute among themselves', or 'isolate constituent parts of a non-physical object'.",
+                    "example": "Het park wordt afgebakend door een heg. (The park is demarcated by a hedge.), De leerlingen worden in groepen afgebakend. (The students are divided into groups.), De taken worden onder de teams afgebakend. (The tasks are distributed among the teams.), De menigte werd afgebakend door de politie. (The crowd was separated by the police.)"
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 31,
+        "full_implication": "divide a set of elements into groups , mark the boundary , put into containers -> isolate constituent parts of a non-physical object",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "word": "German : grenzen",
+                    "meaning": [
+                        "divide a set of elements into groups",
+                        "mark the boundary",
+                        "distribute among others"
+                    ],
+                    "language": "German",
+                    "explanation": "The German word 'grenzen' generally means to limit or border something. It conveys the meanings 'divide a set of elements into groups', 'mark the boundary', and 'distribute among others'. However, it does not convey the meaning 'isolate constituent parts of a non-physical object'.",
+                    "example": "Die Stadt grenzt an den Fluss. (The city borders the river.), Die Firma grenzt ihre M\u00e4rkte in verschiedene Regionen. (The company divides its markets into different regions.), Die Regierung grenzt die Ressourcen unter den B\u00fcrgern. (The government distributes the resources among the citizens.)"
+                },
+                "attempt_outcome": "Attribute already present error"
+            },
+            {
+                "try": 2,
+                "model_response": {
+                    "output": "YES"
+                },
+                "attempt_outcome": "Implication Accepted"
+            }
+        ],
+        "result": "Implication Confirmed"
+    },
+    {
+        "imp id": 32,
+        "full_implication": "divide a set of elements into groups , mark the boundary , isolate constituent parts of a non-physical object , distribute among themselves -> divide a single physical object into constituent parts",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "word": "German : grenzen",
+                    "meaning": [
+                        "divide a set of elements into groups",
+                        "mark the boundary",
+                        "distribute among others"
+                    ],
+                    "language": "German",
+                    "explanation": "The German word 'grenzen' generally means to limit or border something. It can be used to divide a set of elements into groups by setting boundaries, mark the boundary of an area, and distribute something among others. However, it does not convey the meaning of dividing a single physical object into constituent parts or isolating constituent parts of a non-physical object, or distributing among themselves.",
+                    "example": "Die Stadt grenzt an den Fluss. (The city borders the river.), Die Firma grenzt ihre M\u00e4rkte in verschiedene Gruppen ein. (The company divides its markets into different groups.), Die Regierung will die Ressourcen gleichm\u00e4\u00dfig unter den B\u00fcrgern grenzen. (The government wants to distribute the resources evenly among the citizens.)"
+                },
+                "attempt_outcome": "Attribute already present error"
+            },
+            {
+                "try": 2,
+                "model_response": {
+                    "output": "YES"
+                },
+                "attempt_outcome": "Implication Accepted"
+            }
+        ],
+        "result": "Implication Confirmed"
+    },
+    {
+        "imp id": 33,
+        "full_implication": "divide a set of elements into groups , distribute among others , mark the boundary , isolate constituent parts of a non-physical object -> divide a single physical object into constituent parts , distribute among themselves",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "word": "German : grenzen",
+                    "meaning": [
+                        "divide a set of elements into groups",
+                        "mark the boundary",
+                        "distribute among others"
+                    ],
+                    "language": "German",
+                    "explanation": "The German word 'grenzen' generally means to mark or set boundaries. It can be used to divide a set of elements into groups, mark the boundary between two areas, and distribute something among others. However, it does not convey the meanings 'divide a single physical object into constituent parts' or 'distribute among themselves'.",
+                    "example": "Die Stadt grenzt an den Fluss. (The city borders the river.), Die Sch\u00fcler wurden in Gruppen unterteilt und die Aufgaben wurden grenzen. (The students were divided into groups and the tasks were distributed.), Die L\u00e4nder grenzen sich voneinander ab. (The countries border each other.)"
+                },
+                "attempt_outcome": "Attribute already present error"
+            },
+            {
+                "try": 2,
+                "model_response": {
+                    "output": "NO",
+                    "word": "Dutch : afbakenen",
+                    "meaning": [
+                        "divide a set of elements into groups",
+                        "mark the boundary",
+                        "cause to move or be apart",
+                        "distribute among others"
+                    ],
+                    "language": "Dutch",
+                    "explanation": "The Dutch word 'afbakenen' generally means to mark or set boundaries. It can be used to divide a set of elements into groups, mark the boundary between two areas, cause to move or be apart, and distribute something among others. However, it does not convey the meanings 'divide a single physical object into constituent parts' or 'distribute among themselves'.",
+                    "example": "Het bos wordt afgebakend door een hek. (The forest is bounded by a fence.), De leerlingen werden in groepen afgebakend. (The students were divided into groups.), De twee gebieden worden afgebakend door een rivier. (The two areas are bounded by a river.)"
+                },
+                "attempt_outcome": "Attribute already present error"
+            },
+            {
+                "try": 3,
+                "model_response": {
+                    "output": "YES"
+                },
+                "attempt_outcome": "Implication Accepted"
+            }
+        ],
+        "result": "Implication Confirmed"
+    },
+    {
+        "imp id": 34,
+        "full_implication": "divide a single physical object into constituent parts , distribute among themselves -> divide a set of elements into groups",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "word": "French : morceler",
+                    "meaning": [
+                        "divide a single physical object into constituent parts",
+                        "put into containers",
+                        "distribute among themselves"
+                    ],
+                    "language": "French",
+                    "explanation": "The French word 'morceler' generally means to cut or divide something into smaller pieces. It can be used to describe dividing a single physical object into constituent parts, putting things into containers, and distributing something among themselves. However, it does not convey the meaning of dividing a set of elements into groups.",
+                    "example": "Je vais morceler ce g\u00e2teau en petits morceaux pour les mettre dans des bo\u00eetes. (I will cut this cake into small pieces to put them in boxes.) Les associ\u00e9s ont d\u00e9cid\u00e9 de morceler les b\u00e9n\u00e9fices entre eux. (The associates decided to divide the profits among themselves.)"
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 35,
+        "full_implication": "distribute among others , divide a single physical object into constituent parts -> divide a set of elements into groups",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "word": "French : fractionner",
+                    "meaning": [
+                        "distribute among others",
+                        "divide a single physical object into constituent parts",
+                        "put into containers"
+                    ],
+                    "language": "French",
+                    "explanation": "The French word 'fractionner' generally means to divide or split something into smaller parts. It can be used to convey the meanings 'distribute among others' and 'divide a single physical object into constituent parts'. However, it does not convey the meaning 'divide a set of elements into groups'.",
+                    "example": "Fractionner le g\u00e2teau en parts \u00e9gales pour les invit\u00e9s. (Divide the cake into equal parts for the guests.) Fractionner les ressources entre les diff\u00e9rents d\u00e9partements. (Divide the resources among the different departments.) Mettre les l\u00e9gumes fractionn\u00e9s dans des contenants s\u00e9par\u00e9s. (Put the divided vegetables into separate containers.)"
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 36,
+        "full_implication": "distribute among others , divide a single physical object into constituent parts , distribute among themselves -> divide a set of elements into groups",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "word": "French : couper",
+                    "meaning": [
+                        "distribute among others",
+                        "divide a single physical object into constituent parts",
+                        "distribute among themselves",
+                        "put into containers"
+                    ],
+                    "language": "French",
+                    "explanation": "The French word 'couper' generally means to cut something. It can be used to distribute among others, divide a single physical object into constituent parts, and distribute among themselves. However, it does not convey the meaning of dividing a set of elements into groups. It can also be used to put into containers.",
+                    "example": "Couper le g\u00e2teau en parts \u00e9gales pour les invit\u00e9s. (Cut the cake into equal parts for the guests.), Couper le bois en petits morceaux. (Cut the wood into small pieces.), Couper les frais de voyage entre les participants. (Split the travel expenses among the participants.), Couper les l\u00e9gumes et les mettre dans des contenants. (Cut the vegetables and put them into containers.)"
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 37,
+        "full_implication": "divide a single physical object into constituent parts , cause to move or be apart -> divide a set of elements into groups , mark the boundary , isolate constituent parts of a non-physical object , distribute among themselves",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "word": "French : fendre",
+                    "meaning": [
+                        "divide a single physical object into constituent parts",
+                        "cause to move or be apart",
+                        "put into containers"
+                    ],
+                    "language": "French",
+                    "explanation": "The French word 'fendre' generally means to split or divide something. It can be used to divide a single physical object into constituent parts, cause something to move or be apart, and put something into containers. However, it does not convey the meanings 'divide a set of elements into groups', 'mark the boundary', 'isolate constituent parts of a non-physical object', or 'distribute among themselves'.",
+                    "example": "Je vais fendre ce bois en quatre morceaux. (I'm going to split this wood into four pieces.) - divide a single physical object into constituent parts. La porte s'est fendue sous la pression. (The door split under the pressure.) - cause to move or be apart. J'ai fendu les l\u00e9gumes et les ai mis dans des sacs. (I split the vegetables and put them in bags.) - put into containers."
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 38,
+        "full_implication": "divide a single physical object into constituent parts , cause to move or be apart , distribute among themselves -> divide a set of elements into groups , mark the boundary , isolate constituent parts of a non-physical object",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "word": "French : scinder",
+                    "meaning": [
+                        "divide a single physical object into constituent parts",
+                        "cause to move or be apart",
+                        "distribute among themselves",
+                        "put into containers"
+                    ],
+                    "language": "French",
+                    "explanation": "The French word 'scinder' generally means to split or divide something into parts. It can be used to describe the act of dividing a single physical object into constituent parts, causing things to move or be apart, and distributing something among themselves. However, it does not convey the meanings 'divide a set of elements into groups', 'mark the boundary', or 'isolate constituent parts of a non-physical object'.",
+                    "example": "Exemple 1 : Scinder un morceau de bois en deux pour faire un feu. (Example 1: Split a piece of wood in two to make a fire.) Exemple 2 : La d\u00e9cision a scind\u00e9 la communaut\u00e9 en deux groupes oppos\u00e9s, mais cela n'a pas cr\u00e9\u00e9 de nouveaux groupes. (Example 2: The decision split the community into two opposing groups, but it did not create new groups.) Exemple 3 : Les associ\u00e9s ont scind\u00e9 les b\u00e9n\u00e9fices entre eux. (Example 3: The partners split the profits among themselves.)"
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 39,
+        "full_implication": "distribute among others , divide a single physical object into constituent parts , cause to move or be apart -> divide a set of elements into groups , mark the boundary , isolate constituent parts of a non-physical object , distribute among themselves",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "word": "French : sectionner",
+                    "meaning": [
+                        "distribute among others",
+                        "divide a single physical object into constituent parts",
+                        "cause to move or be apart",
+                        "put into containers"
+                    ],
+                    "language": "French",
+                    "explanation": "The French word 'sectionner' generally means to cut or divide something into sections. It can be used to convey the meanings 'distribute among others', 'divide a single physical object into constituent parts', and 'cause to move or be apart'. However, it does not convey the meanings 'divide a set of elements into groups', 'mark the boundary', 'isolate constituent parts of a non-physical object', or 'distribute among themselves'.",
+                    "example": "Sectionner le g\u00e2teau en parts \u00e9gales pour les invit\u00e9s. (Cut the cake into equal parts for the guests.) - distribute among others; Sectionner le bois en petits morceaux. (Cut the wood into small pieces.) - divide a single physical object into constituent parts; Sectionner la route pour \u00e9viter les embouteillages. (Cut off the road to avoid traffic jams.) - cause to move or be apart; Sectionner les l\u00e9gumes pour les mettre dans des contenants. (Cut the vegetables to put them in containers.) - put into containers."
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 40,
+        "full_implication": "distribute among others , divide a single physical object into constituent parts , cause to move or be apart , distribute among themselves -> divide a set of elements into groups , mark the boundary , isolate constituent parts of a non-physical object",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "word": "French : trancher",
+                    "meaning": [
+                        "distribute among others",
+                        "divide a single physical object into constituent parts",
+                        "cause to move or be apart",
+                        "distribute among themselves",
+                        "put into containers"
+                    ],
+                    "language": "French",
+                    "explanation": "The French word 'trancher' generally means to cut or slice something. It can be used to convey the meanings 'divide a single physical object into constituent parts', 'cause to move or be apart', 'distribute among others', and 'distribute among themselves'. However, it does not convey the meanings 'divide a set of elements into groups', 'mark the boundary', or 'isolate constituent parts of a non-physical object'.",
+                    "example": "Trancher le g\u00e2teau en parts \u00e9gales pour les invit\u00e9s. (Cut the cake into equal parts for the guests.) - distribute among others; Trancher le bois en petits morceaux. (Cut the wood into small pieces.) - divide a single physical object into constituent parts; Trancher les liens avec quelqu'un. (Cut ties with someone.) - cause to move or be apart; Trancher le h\u00e9ritage entre les deux fr\u00e8res. (Divide the inheritance between the two brothers.) - distribute among themselves; Trancher les l\u00e9gumes pour les mettre dans des contenants. (Cut the vegetables to put them in containers.) - put into containers"
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 41,
+        "full_implication": "divide a single physical object into constituent parts , distribute among themselves , isolate constituent parts of a non-physical object -> divide a set of elements into groups , mark the boundary",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "word": "French : sectionner",
+                    "meaning": [
+                        "divide a single physical object into constituent parts",
+                        "put into containers",
+                        "cause to move or be apart",
+                        "distribute among others"
+                    ],
+                    "language": "French",
+                    "explanation": "The French word 'sectionner' generally means to cut or divide something into sections. It can be used to divide a single physical object into constituent parts, put something into containers, cause something to move or be apart, and distribute something among others. However, it does not convey the meanings 'divide a set of elements into groups' and 'mark the boundary' as required by the hypothesis.",
+                    "example": "Sectionner le g\u00e2teau en petits morceaux pour le servir (Cut the cake into small pieces to serve), Sectionner les l\u00e9gumes pour les mettre dans des contenants (Cut the vegetables to put them in containers), Sectionner la pi\u00e8ce en deux pour cr\u00e9er un espace s\u00e9par\u00e9 (Cut the room in two to create a separate space), Sectionner les t\u00e2ches pour les distribuer aux employ\u00e9s (Cut the tasks to distribute them among the employees)"
+                },
+                "attempt_outcome": "Attribute already present error"
+            },
+            {
+                "try": 2,
+                "model_response": {
+                    "output": "YES"
+                },
+                "attempt_outcome": "Implication Accepted"
+            }
+        ],
+        "result": "Implication Confirmed"
+    },
+    {
+        "imp id": 42,
+        "full_implication": "distribute among others , divide a single physical object into constituent parts , isolate constituent parts of a non-physical object -> divide a set of elements into groups , mark the boundary , distribute among themselves",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "word": "French : d\u00e9couper",
+                    "meaning": [
+                        "distribute among others",
+                        "divide a single physical object into constituent parts",
+                        "isolate constituent parts of a non-physical object",
+                        "put into containers",
+                        "cause to move or be apart"
+                    ],
+                    "language": "French",
+                    "explanation": "The French word 'd\u00e9couper' generally means to cut out or cut into pieces. It can be used to convey the meanings 'distribute among others', 'divide a single physical object into constituent parts', and 'isolate constituent parts of a non-physical object'. However, it does not convey the meanings 'divide a set of elements into groups', 'mark the boundary', or 'distribute among themselves'.",
+                    "example": "On peut d\u00e9couper le g\u00e2teau en parts \u00e9gales pour les distribuer aux invit\u00e9s (We can cut the cake into equal parts to distribute to the guests), d\u00e9couper un morceau de tissu pour en faire un patron (to cut out a piece of fabric to make a pattern), d\u00e9couper un texte en sections pour le rendre plus lisible (to cut a text into sections to make it more readable), d\u00e9couper des l\u00e9gumes pour les mettre dans des contenants (to cut vegetables to put them in containers), d\u00e9couper un chemin pour cr\u00e9er un nouveau sentier (to cut a path to create a new trail)"
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 43,
+        "full_implication": "divide a single physical object into constituent parts , mark the boundary -> divide a set of elements into groups , distribute among themselves , isolate constituent parts of a non-physical object",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "word": "French : segmenter",
+                    "meaning": [
+                        "divide a single physical object into constituent parts",
+                        "mark the boundary",
+                        "put into containers",
+                        "cause to move or be apart",
+                        "distribute among others"
+                    ],
+                    "language": "French",
+                    "explanation": "The French word 'segmenter' generally means to divide something into segments or parts. It can be used to divide a single physical object into constituent parts, mark the boundary, put into containers, cause to move or be apart, and distribute among others. However, it does not convey the meanings 'divide a set of elements into groups', 'distribute among themselves', or 'isolate constituent parts of a non-physical object'.",
+                    "example": "Segmenter le g\u00e2teau en parts \u00e9gales pour les invit\u00e9s. (Segment the cake into equal parts for the guests.) - divide a single physical object into constituent parts. La rivi\u00e8re segmente la ville en deux parties. (The river segments the city into two parts.) - mark the boundary. Segmenter les l\u00e9gumes dans des contenants pour les conserver. (Segment the vegetables into containers to preserve them.) - put into containers. Le vent a segment\u00e9 les nuages dans le ciel. (The wind has segmented the clouds in the sky.) - cause to move or be apart. Segmenter les t\u00e2ches parmi les employ\u00e9s. (Segment the tasks among the employees.) - distribute among others."
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 44,
+        "full_implication": "divide a single physical object into constituent parts , mark the boundary , distribute among themselves -> divide a set of elements into groups , isolate constituent parts of a non-physical object",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "word": "French : sectionner",
+                    "meaning": [
+                        "divide a single physical object into constituent parts",
+                        "put into containers",
+                        "cause to move or be apart",
+                        "distribute among others"
+                    ],
+                    "language": "French",
+                    "explanation": "The French word 'sectionner' generally means to cut or divide something into sections. Although it conveys the meanings 'divide a single physical object into constituent parts', 'mark the boundary' is not directly applicable, however 'cause to move or be apart' can be considered as marking boundary in some contexts and 'distribute among themselves' is also applicable in some contexts, but the word does not convey the meanings 'divide a set of elements into groups' and 'isolate constituent parts of a non-physical object'.",
+                    "example": "Sectionner un cable signifie couper le cable en deux parties. Sectionner peut \u00e9galement signifier s\u00e9parer les gens. Par exemple, sectionner les gens dans une salle en deux groupes, mais cela n'est pas couramment utilis\u00e9."
+                },
+                "attempt_outcome": "Attribute already present error"
+            },
+            {
+                "try": 2,
+                "model_response": {
+                    "output": "YES"
+                },
+                "attempt_outcome": "Implication Accepted"
+            }
+        ],
+        "result": "Implication Confirmed"
+    },
+    {
+        "imp id": 45,
+        "full_implication": "divide a single physical object into constituent parts , mark the boundary , isolate constituent parts of a non-physical object -> divide a set of elements into groups , distribute among themselves",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "word": "French : segmenter",
+                    "meaning": [
+                        "divide a single physical object into constituent parts",
+                        "mark the boundary",
+                        "isolate constituent parts of a non-physical object",
+                        "put into containers",
+                        "cause to move or be apart",
+                        "distribute among others"
+                    ],
+                    "language": "French",
+                    "explanation": "The French word 'segmenter' generally means to divide something into segments or parts. It can be used to divide a single physical object into constituent parts, mark the boundary, and isolate constituent parts of a non-physical object. However, it does not convey the meaning 'distribute among themselves'.",
+                    "example": "On peut segmenter un march\u00e9 en plusieurs secteurs pour mieux comprendre les besoins des clients. (We can segment a market into several sectors to better understand customer needs.) - divide a single physical object into constituent parts. Les lignes de d\u00e9marcation segmentent la ville en quartiers. (The boundary lines segment the city into neighborhoods.) - mark the boundary. Le logiciel peut segmenter les donn\u00e9es en plusieurs cat\u00e9gories pour une analyse plus pr\u00e9cise. (The software can segment the data into several categories for more accurate analysis.) - isolate constituent parts of a non-physical object. Les sacs de provisions segmentent les aliments pour une conservation plus facile. (The food bags segment the food for easier preservation.) - put into containers. La temp\u00eate a segment\u00e9 les \u00eeles en plusieurs zones inond\u00e9es. (The storm segmented the islands into several flooded areas.) - cause to move or be apart. Les entreprises segmentent leurs produits pour les distribuer \u00e0 diff\u00e9rents march\u00e9s. (Companies segment their products to distribute them to different markets.) - distribute among others."
+                },
+                "attempt_outcome": "Attribute already present error"
+            },
+            {
+                "try": 2,
+                "model_response": {
+                    "output": "YES"
+                },
+                "attempt_outcome": "Implication Accepted"
+            }
+        ],
+        "result": "Implication Confirmed"
+    },
+    {
+        "imp id": 46,
+        "full_implication": "divide a set of elements into groups , divide a single physical object into constituent parts , cause to move or be apart -> mark the boundary , isolate constituent parts of a non-physical object , distribute among themselves",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "word": "French : s\u00e9parer",
+                    "meaning": [
+                        "divide a set of elements into groups",
+                        "divide a single physical object into constituent parts",
+                        "cause to move or be apart",
+                        "put into containers"
+                    ],
+                    "language": "French",
+                    "explanation": "The French word 's\u00e9parer' generally means to separate or divide something into parts. It can be used to divide a set of elements into groups, divide a single physical object into constituent parts, and cause to move or be apart. However, it does not convey the meanings 'mark the boundary', 'isolate constituent parts of a non-physical object', or 'distribute among themselves'.",
+                    "example": "S\u00e9parer les enfants en deux groupes. (Separate the children into two groups.), S\u00e9parer le g\u00e2teau en quatre parts. (Separate the cake into four parts.), S\u00e9parer les deux amis. (Separate the two friends.), S\u00e9parer les l\u00e9gumes dans des contenants. (Separate the vegetables into containers.)"
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 47,
+        "full_implication": "divide a set of elements into groups , divide a single physical object into constituent parts , cause to move or be apart , distribute among themselves -> mark the boundary , isolate constituent parts of a non-physical object",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "word": "French : scinder",
+                    "meaning": [
+                        "divide a single physical object into constituent parts",
+                        "put into containers",
+                        "cause to move or be apart",
+                        "distribute among themselves"
+                    ],
+                    "language": "French",
+                    "explanation": "The French word 'scinder' generally means to split or divide something into parts. It can be used to describe the act of dividing a physical object into smaller parts, putting things into containers, causing things to move apart, or distributing something among individuals. However, it does not convey the meanings 'mark the boundary' or 'isolate constituent parts of a non-physical object'.",
+                    "example": "Exemple 1 : Scinder un morceau de bois en deux parties. (Example 1: Split a piece of wood into two parts.) Exemple 2 : Scinder les objets dans des bo\u00eetes. (Example 2: Put the objects into boxes.) Exemple 3 : La d\u00e9cision a scind\u00e9 les deux amis. (Example 3: The decision caused the two friends to move apart.) Exemple 4 : Les deux associ\u00e9s ont scind\u00e9 les b\u00e9n\u00e9fices. (Example 4: The two associates divided the profits among themselves.)"
+                },
+                "attempt_outcome": "Attribute already present error"
+            },
+            {
+                "try": 2,
+                "model_response": {
+                    "output": "NO",
+                    "word": "German : trennen",
+                    "meaning": [
+                        "divide a set of elements into groups",
+                        "isolate constituent parts of a non-physical object",
+                        "put into containers",
+                        "cause to move or be apart",
+                        "distribute among others"
+                    ],
+                    "language": "German",
+                    "explanation": "The German word 'trennen' generally means to separate or divide something into parts. It can be used to describe the act of dividing a set of elements into groups, isolating constituent parts of a non-physical object, putting things into containers, causing things to move apart, or distributing something among others. However, it does convey 'isolate constituent parts of a non-physical object' but does not convey the meaning 'mark the boundary' and also 'divide a single physical object into constituent parts' and 'distribute among themselves' are not all present.",
+                    "example": "Exemple 1 : Trennen Sie die Kinder in Gruppen. (Example 1: Separate the children into groups.) Exemple 2 : Trennen Sie die verschiedenen Bestandteile des Gemisches. (Example 2: Isolate the different components of the mixture.) Exemple 3 : Trennen Sie die Gegenst\u00e4nde in Kisten. (Example 3: Put the objects into boxes.) Exemple 4 : Der Tod seiner Mutter hat die Familie getrennt. (Example 4: The death of his mother caused the family to move apart.) Exemple 5 : Die Firma trennt die Gewinne unter den Mitarbeitern. (Example 5: The company distributes the profits among the employees.)"
+                },
+                "attempt_outcome": "Attribute already present error"
+            },
+            {
+                "try": 3,
+                "model_response": {
+                    "output": "YES"
+                },
+                "attempt_outcome": "Implication Accepted"
+            }
+        ],
+        "result": "Implication Confirmed"
+    },
+    {
+        "imp id": 48,
+        "full_implication": "divide a set of elements into groups , distribute among others , divide a single physical object into constituent parts , cause to move or be apart -> mark the boundary , isolate constituent parts of a non-physical object , distribute among themselves",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "word": "Spanish : desmembrar",
+                    "meaning": [
+                        "divide a set of elements into groups",
+                        "distribute among others",
+                        "divide a single physical object into constituent parts",
+                        "cause to move or be apart",
+                        "put into containers"
+                    ],
+                    "language": "Spanish",
+                    "explanation": "The Spanish word 'desmembrar' generally means to separate or divide something into parts. It can be used to divide a set of elements into groups, distribute something among others, divide a single physical object into constituent parts, cause something to move or be apart, and put something into containers. However, it does not convey the meanings 'mark the boundary', 'isolate constituent parts of a non-physical object', or 'distribute among themselves'.",
+                    "example": "Desmembramos el equipo en grupos de trabajo (We divided the team into working groups). La empresa desmembr\u00f3 el premio entre los empleados (The company distributed the prize among the employees). Desmembr\u00e9 el pastel en porciones individuales (I divided the cake into individual portions). La explosi\u00f3n desmembr\u00f3 la estructura (The explosion caused the structure to move or be apart). Desmembramos las herramientas en cajas separadas (We put the tools into separate boxes)."
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 49,
+        "full_implication": "divide a set of elements into groups , divide a single physical object into constituent parts , isolate constituent parts of a non-physical object -> mark the boundary , distribute among themselves",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "word": "French : segmenter",
+                    "meaning": [
+                        "divide a single physical object into constituent parts",
+                        "mark the boundary",
+                        "put into containers",
+                        "cause to move or be apart",
+                        "distribute among others"
+                    ],
+                    "language": "French",
+                    "explanation": "The French word 'segmenter' generally means to divide something into parts or segments. It can be used to divide a single physical object into constituent parts, mark the boundary, put into containers, cause to move or be apart, and distribute among others. However, it does not convey the meaning 'distribute among themselves'.",
+                    "example": "Segmenter un g\u00e2teau en parts \u00e9gales pour les invit\u00e9s. (Segment a cake into equal parts for the guests.), Segmenter une entreprise en plusieurs d\u00e9partements. (Segment a company into several departments.), Segmenter un march\u00e9 en plusieurs secteurs. (Segment a market into several sectors.)"
+                },
+                "attempt_outcome": "Attribute already present error"
+            },
+            {
+                "try": 2,
+                "model_response": {
+                    "output": "NO",
+                    "word": "Spanish : desmembrar",
+                    "meaning": [
+                        "divide a single physical object into constituent parts",
+                        "divide a set of elements into groups",
+                        "put into containers",
+                        "cause to move or be apart",
+                        "distribute among others"
+                    ],
+                    "language": "Spanish",
+                    "explanation": "The Spanish word 'desmembrar' generally means to divide or dismember something into parts. It can be used to divide a single physical object into constituent parts, divide a set of elements into groups, put into containers, cause to move or be apart, and distribute among others. However, it does not convey the meaning 'isolate constituent parts of a non-physical object' or 'distribute among themselves' as per given list, but 'isolate constituent parts of a non-physical object' is not checked here as it is not present, 'distribute among themselves' is checked and it is not present",
+                    "example": "Desmembrar un animal para estudiar sus \u00f3rganos. (Dismember an animal to study its organs.), Desmembrar una empresa en varias subsidiarias. (Dismember a company into several subsidiaries.), Desmembrar un territorio en varias regiones. (Dismember a territory into several regions.)"
+                },
+                "attempt_outcome": "Attribute already present error"
+            },
+            {
+                "try": 3,
+                "model_response": {
+                    "output": "NO",
+                    "word": "Italian : smembrare",
+                    "meaning": [
+                        "divide a single physical object into constituent parts",
+                        "divide a set of elements into groups",
+                        "put into containers",
+                        "cause to move or be apart"
+                    ],
+                    "language": "Italian",
+                    "explanation": "The Italian word 'smembrare' generally means to divide or dismember something into parts. It can be used to divide a single physical object into constituent parts, divide a set of elements into groups, put into containers, and cause to move or be apart. However, it does not convey the meanings 'isolate constituent parts of a non-physical object', 'mark the boundary', or 'distribute among themselves' as per given list, but 'isolate constituent parts of a non-physical object' is not checked here as it is not present, 'mark the boundary' and 'distribute among themselves' are checked and they are not present",
+                    "example": "Smembrare un animale per studiarne gli organi. (Dismember an animal to study its organs.), Smembrare un'azienda in diverse filiali. (Dismember a company into several branches.), Smembrare un territorio in diverse regioni. (Dismember a territory into several regions.)"
+                },
+                "attempt_outcome": "Invalid Counter example"
+            }
+        ],
+        "result": "Implication Skipped"
+    },
+    {
+        "imp id": 50,
+        "full_implication": "divide a set of elements into groups , divide a single physical object into constituent parts , mark the boundary -> distribute among themselves , isolate constituent parts of a non-physical object",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "YES"
+                },
+                "attempt_outcome": "Implication Accepted"
+            }
+        ],
+        "result": "Implication Confirmed"
+    },
+    {
+        "imp id": 999999,
+        "output_objects": [
+            "English: divide",
+            "English: share",
+            "English: split",
+            "English: separate",
+            "Portuguese : ratear",
+            "Spanish : repartir",
+            "English : disperse",
+            "French : doser",
+            "French : r\u00e9partir",
+            "German : verteilen",
+            "English : scatter",
+            "English : compartmentalize",
+            "English : apportion",
+            "English : allot",
+            "English : dissociate",
+            "English : sever",
+            "English : dispense",
+            "English : parcel",
+            "English : demarcate",
+            "Portuguese : dividir",
+            "German : aufteilen",
+            "English : partition",
+            "English : distribute",
+            "German : teilen",
+            "German : sortieren",
+            "German : unterteilen",
+            "English : prorate",
+            "German : trennen",
+            "Dutch : scheiden",
+            "Italian : suddividere",
+            "German : aussortieren",
+            "German : grenzen",
+            "Dutch : afbakenen",
+            "French : morceler",
+            "French : fractionner",
+            "French : couper",
+            "French : fendre",
+            "French : scinder",
+            "French : sectionner",
+            "French : trancher",
+            "French : d\u00e9couper",
+            "French : segmenter",
+            "French : s\u00e9parer",
+            "Spanish : desmembrar"
+        ],
+        "output_attributes": [
+            "divide a single physical object into constituent parts",
+            "divide a set of elements into groups",
+            "mark the boundary",
+            "isolate constituent parts of a non-physical object",
+            "put into containers",
+            "cause to move or be apart",
+            "distribute among others",
+            "distribute among themselves"
+        ],
+        "implication_count": 50,
+        "implications_skipped": 1,
+        "implications_confirmed": 9,
+        "implications_rejected": 40,
+        "invalid_counter_examples": 2,
+        "json_format_error": 0,
+        "word_already_present_error": 17
+    }
+]

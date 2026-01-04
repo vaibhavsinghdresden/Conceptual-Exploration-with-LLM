@@ -1,0 +1,277 @@
+[
+    {
+        "imp id": 1,
+        "full_implication": "isolate constituent parts of a non-physical object -> mark the boundary , divide a set of elements into groups",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "word": "English : analyze",
+                    "meaning": [
+                        "isolate constituent parts of a non-physical object",
+                        "divide a single physical object into constituent parts"
+                    ]
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 2,
+        "full_implication": "mark the boundary -> divide a set of elements into groups , isolate constituent parts of a non-physical object",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "word": "English : border",
+                    "meaning": [
+                        "mark the boundary"
+                    ]
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 3,
+        "full_implication": "mark the boundary , isolate constituent parts of a non-physical object -> divide a set of elements into groups",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "word": "English : border",
+                    "meaning": [
+                        "mark the boundary",
+                        "isolate constituent parts of a non-physical object",
+                        "divide a single physical object into constituent parts"
+                    ]
+                },
+                "attempt_outcome": "Attribute already present error"
+            },
+            {
+                "try": 2,
+                "model_response": {
+                    "output": "NO",
+                    "word": "English : delineate",
+                    "meaning": [
+                        "mark the boundary",
+                        "isolate constituent parts of a non-physical object"
+                    ]
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 4,
+        "full_implication": "divide a set of elements into groups -> mark the boundary , isolate constituent parts of a non-physical object",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "word": "English : categorize",
+                    "meaning": [
+                        "divide a set of elements into groups",
+                        "isolate constituent parts of a non-physical object"
+                    ]
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 5,
+        "full_implication": "mark the boundary , divide a set of elements into groups -> isolate constituent parts of a non-physical object",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "word": "English : Border",
+                    "meaning": [
+                        "mark the boundary",
+                        "divide a set of elements into groups"
+                    ]
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 6,
+        "full_implication": "divide a single physical object into constituent parts -> isolate constituent parts of a non-physical object",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "word": "English : chop",
+                    "meaning": [
+                        "divide a single physical object into constituent parts",
+                        "mark the boundary"
+                    ]
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 7,
+        "full_implication": "mark the boundary , divide a single physical object into constituent parts , isolate constituent parts of a non-physical object -> divide a set of elements into groups",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "word": "English : dissect",
+                    "meaning": [
+                        "divide a single physical object into constituent parts",
+                        "isolate constituent parts of a non-physical object",
+                        "mark the boundary"
+                    ]
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 8,
+        "full_implication": "divide a set of elements into groups , divide a single physical object into constituent parts -> mark the boundary , isolate constituent parts of a non-physical object",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "word": "English : chop",
+                    "meaning": [
+                        "divide a single physical object into constituent parts",
+                        "divide a set of elements into groups"
+                    ]
+                },
+                "attempt_outcome": "Attribute already present error"
+            },
+            {
+                "try": 2,
+                "model_response": {
+                    "output": "NO",
+                    "word": "English : split",
+                    "meaning": [
+                        "divide a single physical object into constituent parts",
+                        "divide a set of elements into groups"
+                    ]
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 9,
+        "full_implication": "divide a set of elements into groups , divide a single physical object into constituent parts , isolate constituent parts of a non-physical object -> mark the boundary",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "word": "English : dissect",
+                    "meaning": [
+                        "divide a single physical object into constituent parts",
+                        "isolate constituent parts of a non-physical object",
+                        "divide a set of elements into groups"
+                    ]
+                },
+                "attempt_outcome": "Attribute already present error"
+            },
+            {
+                "try": 2,
+                "model_response": {
+                    "output": "NO",
+                    "word": "English : split",
+                    "meaning": [
+                        "divide a single physical object into constituent parts",
+                        "divide a set of elements into groups",
+                        "isolate constituent parts of a non-physical object"
+                    ]
+                },
+                "attempt_outcome": "Attribute already present error"
+            },
+            {
+                "try": 3,
+                "model_response": {
+                    "output": "NO",
+                    "word": "English : section",
+                    "meaning": [
+                        "divide a single physical object into constituent parts",
+                        "divide a set of elements into groups",
+                        "isolate constituent parts of a non-physical object"
+                    ]
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 10,
+        "full_implication": "mark the boundary , divide a set of elements into groups , divide a single physical object into constituent parts -> isolate constituent parts of a non-physical object",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "word": "English : Cut",
+                    "meaning": [
+                        "mark the boundary",
+                        "divide a set of elements into groups",
+                        "divide a single physical object into constituent parts"
+                    ]
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 999999,
+        "output_objects": [
+            "English: divide",
+            "English: share",
+            "English: split",
+            "English: separate",
+            "English : analyze",
+            "English : border",
+            "English : delineate",
+            "English : categorize",
+            "English : Border",
+            "English : chop",
+            "English : dissect",
+            "English : split",
+            "English : section",
+            "English : Cut"
+        ],
+        "output_attributes": [
+            "divide a single physical object into constituent parts",
+            "divide a set of elements into groups",
+            "mark the boundary",
+            "isolate constituent parts of a non-physical object"
+        ],
+        "implication_count": 10,
+        "implications_skipped": 0,
+        "implications_confirmed": 0,
+        "implications_rejected": 10,
+        "invalid_counter_examples": 0,
+        "json_format_error": 0,
+        "word_already_present_error": 4
+    }
+]

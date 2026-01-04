@@ -1,0 +1,510 @@
+[
+    {
+        "imp id": 1,
+        "full_implication": " -> English: split,Russian: delit',English: divide",
+        "result": "Confirmed"
+    },
+    {
+        "imp id": 2,
+        "full_implication": "English: separate,English: split,Russian: delit',English: divide -> Russian: razbivat'",
+        "unit_implication": "English: separate,English: split,Russian: delit',English: divide -> Russian: razbivat'",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "meaning": "to distinguish or differentiate",
+                    "word": [
+                        "English: separate",
+                        "English: split",
+                        "Russian: delit'",
+                        "English: divide",
+                        "Russian: delit'sya"
+                    ],
+                    "explanation": "The word 'separate' is taken from the English language and generally means to isolate or divide something from others. The word 'split' is also from English and means to divide something into parts. The Russian word 'delit'' means to divide, while 'delit'sya' means to share. The word 'divide' is from English and means to separate into parts. The meaning 'to distinguish or differentiate' is shared by these words but not by 'Russian: razbivat'', which generally means to break or shatter into pieces.",
+                    "example": "For example, 'separate' the good from the bad, 'split' the bill, 'delit'' the cake, 'delit'sya' the inheritance, 'divide' the room. However, 'razbivat'' would mean to break the glass, not to distinguish between different types of glass."
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 3,
+        "full_implication": "English: share,English: split,Russian: delit',English: divide -> English: separate,Russian: razluchat',Russian: delit'sya,Russian: razbivat'",
+        "unit_implication": "English: share,English: split,Russian: delit',English: divide -> English: separate",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "meaning": "to give part of something to somebody",
+                    "word": [
+                        "English: share",
+                        "English: split",
+                        "Russian: delit'"
+                    ],
+                    "explanation": "The word 'share' is an English word that generally means to give part of something to somebody. The word 'split' is also an English word that can mean to divide something into parts, but it can also mean to give part of something to somebody. The Russian word 'delit'' means to divide or share something. However, the word 'separate' does not share this meaning. It generally means to divide or part something, but not necessarily to give part of something to somebody.",
+                    "example": "For example, 'I will share my cake with you' means to give part of the cake to somebody. 'I will split the bill with you' means to divide the bill into parts and give part of it to somebody. 'Ya budu delit' tort s toboi' (I will divide the cake with you) is a Russian sentence that means to give part of the cake to somebody. However, 'I will separate the eggs from the milk' does not mean to give part of something to somebody, it means to divide or part something."
+                },
+                "attempt_outcome": "Invalid Counter example"
+            },
+            {
+                "try": 2,
+                "model_response": {
+                    "output": "NO",
+                    "meaning": "to give part of something to somebody",
+                    "word": [
+                        "English: share",
+                        "English: split",
+                        "Russian: delit'",
+                        "English: divide"
+                    ],
+                    "explanation": "The words 'share', 'split', 'delit'', and 'divide' can all mean to give part of something to somebody. For example, 'I will share my cake with you' means to give part of the cake to somebody. 'I will split the bill with you' means to divide the bill into parts and give part of it to somebody. 'Ya budu delit' tort s toboi' (I will divide the cake with you) is a Russian sentence that means to give part of the cake to somebody. 'I will divide the inheritance among my children' means to give part of the inheritance to each child. However, the word 'separate' does not share this meaning. It generally means to divide or part something, but not necessarily to give part of something to somebody.",
+                    "example": "For example, 'I will separate the eggs from the milk' does not mean to give part of something to somebody, it means to divide or part something. This shows that 'separate' does not share the meaning of 'to give part of something to somebody' with 'share', 'split', 'delit'', and 'divide'."
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 4,
+        "full_implication": "English: separate,English: split,English: share,Russian: delit',English: divide -> Russian: razluchat',Russian: delit'sya,Russian: razbivat'",
+        "unit_implication": "English: separate,English: split,English: share,Russian: delit',English: divide -> Russian: razluchat'",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "meaning": "to move or force something to one side",
+                    "word": [
+                        "English: separate",
+                        "English: split",
+                        "English: divide"
+                    ],
+                    "explanation": "The word 'separate' is taken from the English language and generally means to move or force something to one side, or to divide something into parts. The word 'split' also from English, generally means to divide something into parts, but can also mean to move or force something to one side. The word 'divide' from English, generally means to separate or part something. However, 'Russian: razluchat'' does not share this meaning. 'Russian: razluchat'' generally means to separate or part something, but does not convey the meaning of moving or forcing something to one side.",
+                    "example": "For example, 'separate the crowd' means to move people to one side, 'split the crowd' also means to move people to one side, and 'divide the room' means to separate the room into parts. However, 'Russian: razluchat'' would not be used in this context, as it does not convey the meaning of moving or forcing something to one side. 'English: share' and 'Russian: delit'' do not share this meaning either."
+                },
+                "attempt_outcome": "Invalid Counter example"
+            },
+            {
+                "try": 2,
+                "model_response": {
+                    "output": "NO",
+                    "meaning": "to give out or distribute portions of something",
+                    "word": [
+                        "English: share",
+                        "English: divide",
+                        "English: separate",
+                        "English: split",
+                        "Russian: delit'"
+                    ],
+                    "explanation": "The word 'share' is taken from the English language and generally means to give out or distribute portions of something. The word 'divide' from English, also means to give out or distribute portions of something. The word 'separate' from English, can also mean to give out or distribute portions of something, in the sense of separating something into parts to distribute. The word 'split' from English, can also mean to give out or distribute portions of something, in the sense of splitting something into parts to distribute. The word 'delit'' from Russian, also means to give out or distribute portions of something. However, 'Russian: razluchat'' does not share this meaning. 'Russian: razluchat'' generally means to separate or part something, but does not convey the meaning of giving out or distributing portions of something.",
+                    "example": "For example, 'share the cake' means to give out or distribute portions of the cake, 'divide the cake' means to give out or distribute portions of the cake, 'separate the cookies' can mean to give out or distribute portions of the cookies, 'split the bill' means to give out or distribute portions of the bill, and 'Russian: delit'' can also mean to give out or distribute portions of something. However, 'Russian: razluchat'' would not be used in this context, as it does not convey the meaning of giving out or distributing portions of something."
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 5,
+        "full_implication": "Russian: razluchat',English: split,Russian: delit',English: divide -> English: separate,English: share,Russian: delit'sya,Russian: razbivat'",
+        "unit_implication": "Russian: razluchat',English: split,Russian: delit',English: divide -> English: separate",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "meaning": "to move or force something to move apart",
+                    "word": [
+                        "Russian: razluchat'",
+                        "English: split",
+                        "Russian: delit'",
+                        "English: divide"
+                    ],
+                    "explanation": "The word 'Russian: razluchat'' generally means to separate or part something, it is taken from the Russian language. The word 'English: split' generally means to divide or separate something into parts, it is taken from the English language. The word 'Russian: delit'' generally means to divide or share something, it is taken from the Russian language. The word 'English: divide' generally means to separate or part something, it is taken from the English language. All these words share the meaning 'to move or force something to move apart' but 'English: separate' does not share this meaning in all contexts.",
+                    "example": "For example, 'Russian: razluchat'' can be used as 'razluchat' drevo' meaning to split wood, 'English: split' can be used as 'split the wood' meaning to divide the wood into parts, 'Russian: delit'' can be used as 'delit' pirog' meaning to divide the pie, 'English: divide' can be used as 'divide the pie' meaning to separate the pie into parts. However, 'English: separate' is not typically used in this way, for example, you would not say 'separate the wood' to mean split it, instead you would say 'split the wood'."
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 6,
+        "full_implication": "English: separate,Russian: razluchat',English: split,Russian: delit',English: divide -> English: share,Russian: delit'sya,Russian: razbivat'",
+        "unit_implication": "English: separate,Russian: razluchat',English: split,Russian: delit',English: divide -> English: share",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "meaning": "to detach or disengage",
+                    "word": [
+                        "English: separate",
+                        "Russian: razluchat'",
+                        "English: split",
+                        "Russian: delit'",
+                        "English: divide"
+                    ],
+                    "explanation": "The word 'separate' is taken from English and generally means to move or force something to move apart. The word 'razluchat'' is taken from Russian and also means to detach or disengage. The word 'split' is taken from English and means to divide a single physical object into constituent parts. The word 'delit'' is taken from Russian and means to divide a set of elements into groups. The word 'divide' is taken from English and means to distinguish or differentiate. However, 'English: share' does not share this meaning as it generally means to give part of something to somebody or to give out or distribute portions of something.",
+                    "example": "For example, 'separate' can be used as 'The couple decided to separate after 10 years of marriage.' 'razluchat'' can be used as 'On razluchil svoyu komnatu ot obshchei zoni' which means 'He separated his room from the common area.' 'split' can be used as 'The wood split easily with one strike of the axe.' 'delit'' can be used as 'On delil imushchestvo na ravnye chasti' which means 'He divided the property into equal parts.' 'divide' can be used as 'The teacher asked the students to divide into groups.' However, 'share' cannot be used in the same context as the other words, for example, 'The company will share its profits with its employees' which means to give out or distribute portions of something."
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 7,
+        "full_implication": "Russian: razluchat',English: split,English: share,Russian: delit',English: divide -> English: separate,Russian: delit'sya,Russian: razbivat'",
+        "unit_implication": "Russian: razluchat',English: split,English: share,Russian: delit',English: divide -> English: separate",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "meaning": "to apportion or allocate something",
+                    "word": [
+                        "Russian: delit'",
+                        "English: share",
+                        "English: divide"
+                    ],
+                    "explanation": "The words 'Russian: delit'', 'English: share', and 'English: divide' all share the meaning of apportioning or allocating something, which is not shared by 'English: separate'. The general meaning of 'Russian: delit'' is to divide or share something, and it is a Russian word. The word 'English: share' is an English word that means to give part of something to somebody, and 'English: divide' is also an English word that means to separate or apportion something.",
+                    "example": "For example, 'Russian: delit'' can be used to describe dividing a cake among friends, 'English: share' can be used to describe giving someone a part of your food, and 'English: divide' can be used to describe separating a room into two parts. However, 'English: separate' would not be used in these contexts, as it typically means to move or force something to move apart, rather than to apportion or allocate something."
+                },
+                "attempt_outcome": "Invalid Counter example"
+            },
+            {
+                "try": 2,
+                "model_response": {
+                    "output": "NO",
+                    "meaning": "to disunite or disconnect in a romantic relationship",
+                    "word": [
+                        "Russian: razluchat'",
+                        "English: split",
+                        "English: share",
+                        "Russian: delit'",
+                        "English: divide"
+                    ],
+                    "explanation": "The words 'Russian: razluchat'', 'English: split', 'English: share', 'Russian: delit'', and 'English: divide' all share the meaning of disuniting or disconnecting in a romantic relationship, which is not shared by 'English: separate'. The general meaning of 'Russian: razluchat'' is to separate or divorce, and it is a Russian word. The word 'English: split' is an English word that means to separate or divide, often in a romantic relationship. However, 'English: separate' typically means to move or force something to move apart, rather than to disunite or disconnect in a romantic relationship.",
+                    "example": "For example, 'Russian: razluchat'' can be used to describe a couple getting a divorce, 'English: split' can be used to describe a couple breaking up, 'English: share' can be used to describe a couple sharing their feelings, 'Russian: delit'' can be used to describe a couple dividing their assets, and 'English: divide' can be used to describe a couple dividing their time. However, 'English: separate' would not be used in these contexts, as it typically means to physically move apart, rather than to disunite or disconnect in a romantic relationship."
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 8,
+        "full_implication": "English: separate,Russian: razluchat',English: split,Russian: delit',English: share,English: divide -> Russian: delit'sya,Russian: razbivat'",
+        "unit_implication": "English: separate,Russian: razluchat',English: split,Russian: delit',English: share,English: divide -> Russian: delit'sya",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "meaning": "to classify or categorize",
+                    "word": [
+                        "English: separate",
+                        "Russian: razluchat'",
+                        "English: split",
+                        "Russian: delit'",
+                        "English: share",
+                        "English: divide"
+                    ],
+                    "explanation": "The word 'English: separate' generally means to move or force something to move apart, and it can also mean to classify or categorize. The word 'Russian: razluchat'' generally means to disunite or disconnect in a romantic relationship, and it can also mean to classify or categorize. The word 'English: split' generally means to divide a single physical object into constituent parts, and it can also mean to classify or categorize. The word 'Russian: delit'' generally means to divide a set of elements into groups, and it can also mean to classify or categorize. The word 'English: share' generally means to give part of something to somebody, and it can also mean to classify or categorize. The word 'English: divide' generally means to divide a set of elements into groups, and it can also mean to classify or categorize. However, the word 'Russian: delit''sya' generally means to isolate constituent parts of a non-physical object, and it does not mean to classify or categorize.",
+                    "example": "For example, 'English: separate' can be used as 'The teacher will separate the students into groups based on their grades.' 'Russian: razluchat'' can be used as 'Oni razluchilis' na osnovanii vozrasta.' which means 'They were separated based on age.' 'English: split' can be used as 'The company will split the employees into teams.' 'Russian: delit'' can be used as 'My delim knigi po zhanram.' which means 'We divide books by genre.' 'English: share' can be used as 'The company will share the profits with the employees.' 'English: divide' can be used as 'The teacher will divide the class into groups.' However, 'Russian: delit''sya' cannot be used in this context."
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 9,
+        "full_implication": "English: split,Russian: delit',English: divide,Russian: razbivat' -> English: separate",
+        "unit_implication": "English: split,Russian: delit',English: divide,Russian: razbivat' -> English: separate",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "meaning": "to cut or chop something, typically with a sharp blade",
+                    "word": [
+                        "English: split",
+                        "Russian: delit'",
+                        "English: divide",
+                        "Russian: razbivat'"
+                    ],
+                    "explanation": "The words 'English: split', 'Russian: delit'', 'English: divide', and 'Russian: razbivat'' all share the meaning of 'to cut or chop something, typically with a sharp blade'. This meaning is not shared by 'English: separate'. The word 'English: split' is taken from the English language and generally means to divide or separate something into two or more parts. The word 'Russian: delit'' is taken from the Russian language and generally means to divide or cut something. The word 'English: divide' is taken from the English language and generally means to separate or part something into two or more parts. The word 'Russian: razbivat'' is taken from the Russian language and generally means to break or smash something into pieces.",
+                    "example": "For example, 'English: split' can be used as 'split the wood with an axe', 'Russian: delit'' can be used as 'delit' drevo na poliena' which means 'to split the wood into firewood', 'English: divide' can be used as 'divide the cake into equal pieces', and 'Russian: razbivat'' can be used as 'razbivat' steklo' which means 'to break the glass'. However, 'English: separate' does not share this meaning and cannot be used in the same context."
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 10,
+        "full_implication": "English: split,Russian: razbivat',English: share,Russian: delit',English: divide -> English: separate,Russian: razluchat',Russian: delit'sya",
+        "unit_implication": "English: split,Russian: razbivat',English: share,Russian: delit',English: divide -> Russian: delit'sya",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "meaning": "to break or shatter something into pieces",
+                    "word": [
+                        "English: split",
+                        "Russian: razbivat'",
+                        "English: share",
+                        "Russian: delit'",
+                        "English: divide"
+                    ],
+                    "explanation": "The word 'English: split' generally means to divide or separate something into parts or to break or shatter something into pieces. 'Russian: razbivat'' has a similar meaning of breaking or shattering. 'English: share' and 'Russian: delit'' generally refer to giving part of something to somebody, but in some contexts, 'English: share' can imply a division or distribution. 'English: divide' also refers to separating or partitioning. However, 'Russian: delit'sya' does not share the meaning of breaking or shattering something into pieces. 'Russian: delit'sya' generally means to divide or separate oneself from something or to distinguish oneself.",
+                    "example": "For example, 'English: split' can be used as 'The glass split into a hundred pieces when it fell.' Similarly, 'Russian: razbivat'' can be used as 'On razbil okno' meaning 'He broke the window.' On the other hand, 'Russian: delit'sya' would be used in a different context, such as 'On delilsya svoyey sekretom' meaning 'He shared his secret.'"
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 11,
+        "full_implication": "Russian: razluchat',English: split,Russian: razbivat',Russian: delit',English: divide -> English: separate,English: share,Russian: delit'sya",
+        "unit_implication": "Russian: razluchat',English: split,Russian: razbivat',Russian: delit',English: divide -> Russian: delit'sya",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "meaning": "to move or force something to move apart",
+                    "word": [
+                        "Russian: razluchat'",
+                        "English: split",
+                        "Russian: razbivat'",
+                        "Russian: delit'",
+                        "English: divide",
+                        "English: separate"
+                    ],
+                    "explanation": "The word 'Russian: razluchat'' generally means to separate or part something, 'English: split' means to divide or separate something, 'Russian: razbivat'' means to break or shatter something, 'Russian: delit'' means to divide or share something, 'English: divide' means to separate or part something, and 'English: separate' means to move or force something to move apart. The meaning 'to move or force something to move apart' is shared by these words but not by 'Russian: delit'sya', which generally means to share or divide something among people.",
+                    "example": "For example, 'Russian: razluchat'' can be used as 'razluchat' dve komnaty' meaning 'to separate two rooms', 'English: split' can be used as 'split the wood' meaning 'to divide the wood', 'Russian: razbivat'' can be used as 'razbivat' steklo' meaning 'to break the glass', 'Russian: delit'' can be used as 'delit' tort' meaning 'to divide the cake', 'English: divide' can be used as 'divide the students into groups' meaning 'to separate the students into groups', and 'English: separate' can be used as 'separate the eggs' meaning 'to move or force the eggs to move apart'. On the other hand, 'Russian: delit'sya' can be used as 'delit'sya veshchami' meaning 'to share things among people' but does not fit the meaning 'to move or force something to move apart'."
+                },
+                "attempt_outcome": "Attribute already present error"
+            },
+            {
+                "try": 2,
+                "model_response": {
+                    "output": "NO",
+                    "meaning": "to share or give a part of one's own property",
+                    "word": [
+                        "Russian: delit'",
+                        "English: share",
+                        "Russian: delit'sya"
+                    ],
+                    "explanation": "The word 'Russian: delit'' generally means to divide or share something, 'English: share' means to give a part of something to somebody, and 'Russian: delit'sya' generally means to share or divide something among people. However, 'Russian: razluchat'' and 'English: split' and 'Russian: razbivat'' and 'English: divide' do not share this meaning. 'Russian: razluchat'' means to separate or part something, 'English: split' means to divide or separate something, 'Russian: razbivat'' means to break or shatter something, and 'English: divide' means to separate or part something.",
+                    "example": "For example, 'Russian: delit'' can be used as 'delit' veshchi' meaning 'to share things', 'English: share' can be used as 'share the cake' meaning 'to give a part of the cake to somebody', and 'Russian: delit'sya' can be used as 'delit'sya veshchami' meaning 'to share things among people'. On the other hand, 'Russian: razluchat'' can be used as 'razluchat' dve komnaty' meaning 'to separate two rooms', 'English: split' can be used as 'split the wood' meaning 'to divide the wood', 'Russian: razbivat'' can be used as 'razbivat' steklo' meaning 'to break the glass', and 'English: divide' can be used as 'divide the students into groups' meaning 'to separate the students into groups'."
+                },
+                "attempt_outcome": "Invalid Counter example"
+            },
+            {
+                "try": 3,
+                "model_response": {
+                    "output": "YES"
+                },
+                "attempt_outcome": "Implication Accepted"
+            }
+        ],
+        "result": "Implication Confirmed"
+    },
+    {
+        "imp id": 12,
+        "full_implication": "Russian: delit'sya,English: split,English: share,Russian: delit',English: divide -> English: separate,Russian: razluchat',Russian: razbivat'",
+        "unit_implication": "Russian: delit'sya,English: split,English: share,Russian: delit',English: divide -> English: separate",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "meaning": "to open or unfold something",
+                    "word": [
+                        "Russian: delit'sya",
+                        "English: split",
+                        "English: share",
+                        "Russian: delit'",
+                        "English: divide"
+                    ],
+                    "explanation": "The word 'delit'sya' in Russian can also mean 'to open' or 'to unfold', which is shared by 'split' in English as in 'to split open', 'share' as in 'to share openly', 'delit'' in Russian as in 'to open or divide', and 'divide' in English as in 'to divide or open up'. However, 'separate' in English does not share this meaning. The general meaning of 'delit'sya' is to divide or separate, but it can also imply opening or unfolding, which is not a common meaning for 'separate'.",
+                    "example": "For example, 'delit'sya' can be used to describe unfolding a map, 'split' can be used to describe splitting open a package, 'share' can be used to describe sharing openly, 'delit'' can be used to describe dividing or opening, and 'divide' can be used to describe dividing or opening up. However, 'separate' would not be used in these contexts."
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 13,
+        "full_implication": "English: separate,English: split,Russian: delit'sya,Russian: delit',English: share,English: divide -> Russian: razluchat',Russian: razbivat'",
+        "unit_implication": "English: separate,English: split,Russian: delit'sya,Russian: delit',English: share,English: divide -> Russian: razluchat'",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "meaning": "to set or determine the boundaries or limits of something",
+                    "word": [
+                        "English: separate",
+                        "English: split",
+                        "Russian: delit'sya",
+                        "Russian: delit'",
+                        "English: share",
+                        "English: divide"
+                    ],
+                    "explanation": "The word 'separate' is taken from the English language and generally means to divide or part something. The word 'split' is also from English and means to divide something into parts. 'Delit'sya' and 'delit'' are Russian words where 'delit'' means to divide and 'delit'sya' means to divide oneself. 'Share' and 'divide' are English words where 'share' means to give part of something and 'divide' means to separate into parts. The meaning 'to set or determine the boundaries or limits of something' is shared by 'separate', 'split', 'delit'sya', 'delit'', 'share', and 'divide' but not 'razluchat''. 'Razluchat'' is a Russian word that generally means to part or separate, often in a romantic relationship, and does not share this meaning.",
+                    "example": "For example, 'separate' can be used as 'the committee will separate the tasks into smaller groups', 'split' as 'split the land into two parts', 'delit'' as 'delit' eto vremya' meaning 'divide this time', 'delit'sya' as 'on delitsya svoim opytom' meaning 'he shares his experience', 'share' as 'share the cake with your friends', and 'divide' as 'divide the students into groups'. 'Razluchat'' would not fit in these examples as it implies a different kind of separation."
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 14,
+        "full_implication": "Russian: razluchat',Russian: delit'sya,English: split,Russian: delit',English: divide -> Russian: razbivat'",
+        "unit_implication": "Russian: razluchat',Russian: delit'sya,English: split,Russian: delit',English: divide -> Russian: razbivat'",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "meaning": "to move or force something to move apart",
+                    "word": [
+                        "Russian: razluchat'",
+                        "Russian: delit'sya",
+                        "English: split",
+                        "English: separate"
+                    ],
+                    "explanation": "The word 'Russian: razluchat'' generally means to separate or part ways, often in a romantic relationship, and can also imply moving or forcing something to move apart. The word 'Russian: delit'sya' typically means to share or divide something, but can also imply a sense of separation or moving apart. The English word 'split' can mean to divide or separate something, and also to move or force something to move apart. The English word 'separate' also means to move or force something to move apart. However, 'Russian: razbivat'' does not share this meaning as it generally means to break or shatter something into pieces. 'Russian: delit'' and 'English: divide' also do not share this meaning as they generally mean to divide or separate something into parts, but do not necessarily imply moving or forcing something to move apart.",
+                    "example": "For example, 'Russian: razluchat'' can be used in the sentence 'Oni razluchilis' i poinli raznye puti' meaning 'They parted ways and went their separate ways'. The word 'Russian: delit'sya' can be used in the sentence 'My delimsya igroiami' meaning 'We are sharing toys', but also 'My delimsya i poimli raznye puti' meaning 'We parted ways and went our separate ways'. The English word 'split' can be used in the sentence 'The couple split up and moved apart' and the English word 'separate' can be used in the sentence 'The machine is used to separate the materials and move them apart'. However, 'Russian: razbivat'' would be used in the sentence 'On razbil stol' meaning 'He broke the table', 'Russian: delit'' would be used in the sentence 'Ya delju pesnyu na kuplety' meaning 'I divide the song into couplets', and 'English: divide' would be used in the sentence 'I will divide the cake into equal parts'."
+                },
+                "attempt_outcome": "Attribute already present error"
+            },
+            {
+                "try": 2,
+                "model_response": {
+                    "output": "NO",
+                    "meaning": "to open or unfold something",
+                    "word": [
+                        "English: split"
+                    ],
+                    "explanation": "The English word 'split' can also mean to open or unfold something, like a book or a package. However, this meaning is not shared by 'Russian: razbivat'', 'Russian: razluchat'', 'Russian: delit'', 'Russian: delit''sya', or 'English: divide'. The word 'Russian: razbivat'' generally means to break or shatter something into pieces, 'Russian: razluchat'' means to separate or part ways, 'Russian: delit'' and 'Russian: delit''sya' mean to divide or share something, and 'English: divide' means to separate or part something into equal parts.",
+                    "example": "For example, 'English: split' can be used in the sentence 'The book split open to the page I was reading'. However, the other words do not share this meaning, for example, 'Russian: razbivat'' would be used in the sentence 'On razbil stol' meaning 'He broke the table', 'Russian: razluchat'' would be used in the sentence 'Oni razluchilis'' meaning 'They parted ways', 'Russian: delit'' would be used in the sentence 'Ya delju pesnyu na kuplety' meaning 'I divide the song into couplets', 'Russian: delit''sya' would be used in the sentence 'My delimsya igroiami' meaning 'We are sharing toys', and 'English: divide' would be used in the sentence 'I will divide the cake into equal parts'."
+                },
+                "attempt_outcome": "Attribute already present error"
+            },
+            {
+                "try": 3,
+                "model_response": {
+                    "output": "NO",
+                    "meaning": "to allocate or assign a portion of something",
+                    "word": [
+                        "Russian: delit'",
+                        "Russian: delit'sya",
+                        "English: divide",
+                        "English: share"
+                    ],
+                    "explanation": "The words 'Russian: delit'', 'Russian: delit'sya', 'English: divide', and 'English: share' can all mean to allocate or assign a portion of something. However, this meaning is not shared by 'Russian: razbivat''. The word 'Russian: razbivat'' generally means to break or shatter something into pieces, and does not imply allocation or assignment of portions.",
+                    "example": "For example, 'Russian: delit'' can be used in the sentence 'Ya delju im pieniadze' meaning 'I allocate money to them', 'Russian: delit'sya' can be used in the sentence 'My delimsya igroiami i delim ih po-spravedlivosti' meaning 'We share toys and allocate them fairly', 'English: divide' can be used in the sentence 'I will divide the tasks among the team members', and 'English: share' can be used in the sentence 'I will share my food with my friends'. However, 'Russian: razbivat'' would be used in the sentence 'On razbil stol' meaning 'He broke the table', and does not imply allocation or assignment of portions."
+                },
+                "attempt_outcome": "Attribute already present error"
+            }
+        ],
+        "result": "Implication Skipped"
+    },
+    {
+        "imp id": 15,
+        "full_implication": "Russian: delit'sya,English: split,Russian: razbivat',Russian: delit',English: divide -> Russian: razluchat'",
+        "unit_implication": "Russian: delit'sya,English: split,Russian: razbivat',Russian: delit',English: divide -> Russian: razluchat'",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "YES"
+                },
+                "attempt_outcome": "Implication Accepted"
+            }
+        ],
+        "result": "Implication Confirmed"
+    },
+    {
+        "imp id": 16,
+        "full_implication": "English: separate,Russian: razluchat',English: split,Russian: delit'sya,Russian: razbivat',Russian: delit',English: divide -> English: share",
+        "unit_implication": "English: separate,Russian: razluchat',English: split,Russian: delit'sya,Russian: razbivat',Russian: delit',English: divide -> English: share",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "meaning": "to depart or leave a place",
+                    "word": [
+                        "English: separate",
+                        "Russian: razluchat'",
+                        "English: split",
+                        "Russian: delit'sya",
+                        "Russian: razbivat'",
+                        "Russian: delit'",
+                        "English: divide"
+                    ],
+                    "explanation": "The word 'separate' is taken from English and generally means to move or force something to move apart. The word 'razluchat'' is taken from Russian and generally means to detach or disengage. The word 'split' is taken from English and generally means to divide a single physical object into constituent parts. The word 'delit'sya' is taken from Russian and generally means to isolate constituent parts of a non-physical object. The word 'razbivat'' is taken from Russian and generally means to break or shatter something into pieces. The word 'delit'' is taken from Russian and generally means to divide a set of elements into groups. The word 'divide' is taken from English and generally means to distinguish or differentiate. All these words share the meaning 'to depart or leave a place' but 'English: share' does not share this meaning.",
+                    "example": "For example, 'I am going to separate from my friends and leave the party' (English: separate), 'On razluchilsya so mnoi' meaning 'He departed from me' (Russian: razluchat'), 'The group split up and left the room' (English: split), 'Oni delilis' meaning 'They departed' (Russian: delit'sya), 'On razbival komnatu' meaning 'He left the room' (Russian: razbivat'), 'Oni delilis' meaning 'They departed' (Russian: delit'), 'The team will divide and leave the field' (English: divide). But 'English: share' does not have this meaning, for example, 'I will share this cake with you' does not mean to depart or leave a place."
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 999999,
+        "output_objects": [
+            "Russian: delit'",
+            "Russian: delit'sya",
+            "Russian: razbivat'",
+            "Russian: razluchat'",
+            "English: divide",
+            "English: share",
+            "English: split",
+            "English: separate"
+        ],
+        "output_attributes": [
+            "divide a single physical object into constituent parts",
+            "divide a set of elements into groups",
+            "mark the boundary",
+            "isolate constituent parts of a non-physical object",
+            "to distinguish or differentiate",
+            "to give part of something to somebody",
+            "to give out or distribute portions of something",
+            "to move or force something to move apart",
+            "to detach or disengage",
+            "to disunite or disconnect in a romantic relationship",
+            "to classify or categorize",
+            "to cut or chop something, typically with a sharp blade",
+            "to break or shatter something into pieces",
+            "to allocate or assign a portion of something",
+            "to open or unfold something",
+
+            "to set or determine the boundaries or limits of something",
+            
+            "to depart or leave a place"
+        ],
+        "implication_count": 20,
+        "implications_skipped": 2,
+        "implications_confirmed": 5,
+        "implications_rejected": 13,
+        "invalid_counter_examples": 5,
+        "json_format_error": 0,
+        "word_already_present_error": 7
+    }
+]

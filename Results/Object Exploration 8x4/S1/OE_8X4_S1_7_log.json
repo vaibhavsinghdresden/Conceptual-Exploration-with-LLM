@@ -1,0 +1,537 @@
+[
+    {
+        "imp id": 1,
+        "full_implication": " -> English: divide,English: split,Russian: delit'",
+        "result": "Confirmed"
+    },
+    {
+        "imp id": 2,
+        "full_implication": "English: divide,English: split,Russian: delit',English: separate -> Russian: razbivat'",
+        "unit_implication": "English: divide,English: split,Russian: delit',English: separate -> Russian: razbivat'",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "meaning": "to separate or part from a whole, often in a gentle or peaceful manner",
+                    "word": [
+                        "English: divide",
+                        "English: share",
+                        "English: separate",
+                        "Russian: delit'",
+                        "Russian: delit'sya",
+                        "Russian: razluchat'"
+                    ]
+                },
+                "attempt_outcome": "Invalid Counter example"
+            },
+            {
+                "try": 2,
+                "model_response": {
+                    "output": "NO",
+                    "meaning": "to separate or part from a whole, often in a gentle or peaceful manner",
+                    "word": [
+                        "English: divide",
+                        "English: split",
+                        "Russian: delit'",
+                        "English: separate",
+                        "Russian: razluchat'",
+                        "Russian: delit'sya"
+                    ]
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 3,
+        "full_implication": "English: divide,English: split,Russian: delit',English: share -> Russian: razluchat',Russian: razbivat',Russian: delit'sya,English: separate",
+        "unit_implication": "English: divide,English: split,Russian: delit',English: share -> Russian: razbivat'",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "meaning": "to separate or part something in a gentle or non-forceful manner",
+                    "word": [
+                        "English: divide",
+                        "English: split",
+                        "Russian: delit'",
+                        "English: share",
+                        "Russian: delit'sya",
+                        "Russian: razluchat'"
+                    ]
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 4,
+        "full_implication": "English: separate,English: divide,English: split,Russian: delit',English: share -> Russian: razluchat',Russian: delit'sya,Russian: razbivat'",
+        "unit_implication": "English: separate,English: divide,English: split,Russian: delit',English: share -> Russian: razluchat'",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "meaning": "to share or portion out something",
+                    "word": [
+                        "English: share",
+                        "Russian: delit'",
+                        "Russian: delit'sya"
+                    ]
+                },
+                "attempt_outcome": "Invalid Counter example"
+            },
+            {
+                "try": 2,
+                "model_response": {
+                    "output": "NO",
+                    "meaning": "to share or portion out something",
+                    "word": [
+                        "English: share",
+                        "English: separate",
+                        "English: divide",
+                        "English: split",
+                        "Russian: delit'"
+                    ]
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 5,
+        "full_implication": "Russian: razluchat',English: divide,English: split,Russian: delit' -> Russian: delit'sya",
+        "unit_implication": "Russian: razluchat',English: divide,English: split,Russian: delit' -> Russian: delit'sya",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "meaning": "to separate, detach or disunite something",
+                    "word": [
+                        "Russian: razluchat'",
+                        "English: divide",
+                        "English: split",
+                        "Russian: delit'"
+                    ]
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 6,
+        "full_implication": "Russian: razluchat',English: divide,English: split,Russian: delit',English: separate -> Russian: delit'sya",
+        "unit_implication": "Russian: razluchat',English: divide,English: split,Russian: delit',English: separate -> Russian: delit'sya",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "meaning": "to separate or part from something",
+                    "word": [
+                        "Russian: razluchat'",
+                        "English: divide",
+                        "English: split",
+                        "Russian: delit'",
+                        "English: separate",
+                        "Russian: razbivat'"
+                    ]
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 7,
+        "full_implication": "Russian: razluchat',English: divide,English: split,Russian: delit',English: share -> Russian: delit'sya",
+        "unit_implication": "Russian: razluchat',English: divide,English: split,Russian: delit',English: share -> Russian: delit'sya",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "meaning": "to separate or part",
+                    "word": [
+                        "Russian: razluchat'",
+                        "English: divide",
+                        "English: split",
+                        "Russian: delit'"
+                    ]
+                },
+                "attempt_outcome": "Invalid Counter example"
+            },
+            {
+                "try": 2,
+                "model_response": {
+                    "output": "NO",
+                    "meaning": "to separate or part",
+                    "word": [
+                        "Russian: razluchat'",
+                        "English: divide",
+                        "English: split",
+                        "Russian: delit'",
+                        "English: share"
+                    ]
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 8,
+        "full_implication": "Russian: razluchat',English: divide,English: share,English: split,Russian: delit',English: separate -> Russian: delit'sya,Russian: razbivat'",
+        "unit_implication": "Russian: razluchat',English: divide,English: share,English: split,Russian: delit',English: separate -> Russian: delit'sya",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "meaning": "to separate or part company",
+                    "word": [
+                        "Russian: razluchat'"
+                    ]
+                },
+                "attempt_outcome": "Invalid Counter example"
+            },
+            {
+                "try": 2,
+                "model_response": {
+                    "output": "NO",
+                    "meaning": "to give part of something to someone",
+                    "word": [
+                        "Russian: razluchat'",
+                        "English: divide",
+                        "English: share",
+                        "English: split",
+                        "Russian: delit'",
+                        "English: separate"
+                    ]
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 9,
+        "full_implication": "English: divide,English: share,English: split,Russian: razbivat',Russian: delit',English: separate -> Russian: razluchat',Russian: delit'sya",
+        "unit_implication": "English: divide,English: share,English: split,Russian: razbivat',Russian: delit',English: separate -> Russian: delit'sya",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "meaning": "to give a part of something to someone, especially in order to help them or make their life better",
+                    "word": [
+                        "English: share",
+                        "English: divide",
+                        "English: split",
+                        "Russian: delit'",
+                        "English: separate",
+                        "Russian: razbivat'",
+                        "Russian: delit'sya"
+                    ]
+                },
+                "attempt_outcome": "Invalid Counter example"
+            },
+            {
+                "try": 2,
+                "model_response": {
+                    "output": "YES"
+                },
+                "attempt_outcome": "Implication Accepted"
+            }
+        ],
+        "result": "Implication Confirmed"
+    },
+    {
+        "imp id": 10,
+        "full_implication": "Russian: razluchat',English: divide,English: split,Russian: delit',Russian: razbivat' -> English: separate",
+        "unit_implication": "Russian: razluchat',English: divide,English: split,Russian: delit',Russian: razbivat' -> English: separate",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "meaning": "to share or portion out something",
+                    "word": [
+                        "Russian: delit'",
+                        "Russian: delit'sya",
+                        "English: share"
+                    ]
+                },
+                "attempt_outcome": "Attribute already present error"
+            },
+            {
+                "try": 2,
+                "model_response": {
+                    "output": "NO",
+                    "meaning": "to break or shatter something into pieces",
+                    "word": [
+                        "Russian: razbivat'",
+                        "English: split"
+                    ]
+                },
+                "attempt_outcome": "Invalid Counter example"
+            },
+            {
+                "try": 3,
+                "model_response": {
+                    "output": "NO",
+                    "meaning": "to break or shatter something into pieces",
+                    "word": [
+                        "Russian: razluchat'",
+                        "English: divide",
+                        "English: split",
+                        "Russian: delit'",
+                        "Russian: razbivat'"
+                    ]
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 11,
+        "full_implication": "Russian: razluchat',English: divide,English: share,English: split,Russian: delit',Russian: razbivat' -> Russian: delit'sya,English: separate",
+        "unit_implication": "Russian: razluchat',English: divide,English: share,English: split,Russian: delit',Russian: razbivat' -> Russian: delit'sya",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "meaning": "to separate or part something",
+                    "word": [
+                        "Russian: razluchat'",
+                        "English: separate"
+                    ]
+                },
+                "attempt_outcome": "Invalid Counter example"
+            },
+            {
+                "try": 2,
+                "model_response": {
+                    "output": "NO",
+                    "meaning": "to share something with others",
+                    "word": [
+                        "Russian: razluchat'",
+                        "English: divide",
+                        "English: share",
+                        "English: split",
+                        "Russian: delit'",
+                        "Russian: razbivat'"
+                    ]
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 12,
+        "full_implication": "Russian: delit',English: divide,English: split,Russian: delit'sya -> Russian: razluchat'",
+        "unit_implication": "Russian: delit',English: divide,English: split,Russian: delit'sya -> Russian: razluchat'",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "meaning": "to separate or part company",
+                    "word": [
+                        "Russian: razbivat'"
+                    ]
+                },
+                "attempt_outcome": "Invalid Counter example"
+            },
+            {
+                "try": 2,
+                "model_response": {
+                    "output": "NO",
+                    "meaning": "to share something between people",
+                    "word": [
+                        "Russian: delit'",
+                        "English: divide",
+                        "English: share",
+                        "English: split",
+                        "Russian: delit'sya"
+                    ]
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 13,
+        "full_implication": "English: divide,English: split,Russian: delit'sya,Russian: delit',English: separate -> Russian: razluchat'",
+        "unit_implication": "English: divide,English: split,Russian: delit'sya,Russian: delit',English: separate -> Russian: razluchat'",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "meaning": "to share or portion out something",
+                    "word": [
+                        "English: divide",
+                        "English: share",
+                        "English: split",
+                        "Russian: delit'sya",
+                        "Russian: delit'"
+                    ]
+                },
+                "attempt_outcome": "Attribute already present error"
+            },
+            {
+                "try": 2,
+                "model_response": {
+                    "output": "NO",
+                    "meaning": "to separate or disconnect something physically",
+                    "word": [
+                        "English: split",
+                        "Russian: razbivat'"
+                    ]
+                },
+                "attempt_outcome": "Invalid Counter example"
+            },
+            {
+                "try": 3,
+                "model_response": {
+                    "output": "NO",
+                    "meaning": "to share or portion out something among multiple people",
+                    "word": [
+                        "English: share",
+                        "English: divide",
+                        "English: split",
+                        "Russian: delit'",
+                        "Russian: delit'sya",
+                        "English: separate"
+                    ]
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 14,
+        "full_implication": "Russian: razluchat',English: divide,English: share,English: split,Russian: delit'sya,Russian: delit',English: separate -> Russian: razbivat'",
+        "unit_implication": "Russian: razluchat',English: divide,English: share,English: split,Russian: delit'sya,Russian: delit',English: separate -> Russian: razbivat'",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "meaning": "to share or portion out something",
+                    "word": [
+                        "Russian: delit'sya",
+                        "English: share"
+                    ]
+                },
+                "attempt_outcome": "Attribute already present error"
+            },
+            {
+                "try": 2,
+                "model_response": {
+                    "output": "NO",
+                    "meaning": "to separate or part from a whole",
+                    "word": [
+                        "English: separate",
+                        "Russian: razluchat'"
+                    ]
+                },
+                "attempt_outcome": "Invalid Counter example"
+            },
+            {
+                "try": 3,
+                "model_response": {
+                    "output": "NO",
+                    "meaning": "to separate or part from a whole in order to share",
+                    "word": [
+                        "Russian: razluchat'",
+                        "English: divide",
+                        "English: share",
+                        "English: split",
+                        "Russian: delit'sya",
+                        "Russian: delit'",
+                        "English: separate"
+                    ]
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 15,
+        "full_implication": "English: divide,English: split,Russian: delit'sya,Russian: delit',Russian: razbivat' -> Russian: razluchat',English: separate,English: share",
+        "unit_implication": "English: divide,English: split,Russian: delit'sya,Russian: delit',Russian: razbivat' -> English: separate",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "YES"
+                },
+                "attempt_outcome": "Implication Accepted"
+            }
+        ],
+        "result": "Implication Confirmed"
+    },
+    {
+        "imp id": 999999,
+        "output_objects": [
+            "Russian: delit'",
+            "Russian: delit'sya",
+            "Russian: razbivat'",
+            "Russian: razluchat'",
+            "English: divide",
+            "English: share",
+            "English: split",
+            "English: separate"
+        ],
+        "output_attributes": [
+            "divide a single physical object into constituent parts",
+            "divide a set of elements into groups",
+            "mark the boundary",
+            "isolate constituent parts of a non-physical object",
+            "to separate or part from a whole, often in a gentle or peaceful manner",
+            "to separate or part things",
+            
+            "to separate or part something in a gentle or non-forceful manner",
+            
+            "to share or portion out something",
+
+            "to separate, detach or disunite something",
+            "to separate or part from something",
+            "to separate or part",
+            "to give part of something to someone",
+            "to break or shatter something into pieces",
+            "to share something with others",
+            
+            "to share something between people",
+            
+            "to share or portion out something among multiple people",
+            
+            "to separate or part from a whole in order to share",
+            
+            "to separate into parts"
+        ],
+        "implication_count": 21,
+        "implications_skipped": 3,
+        "implications_confirmed": 4,
+        "implications_rejected": 14,
+        "invalid_counter_examples": 13,
+        "json_format_error": 0,
+        "word_already_present_error": 9
+    }
+]

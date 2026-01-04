@@ -1,0 +1,53 @@
+[
+    {
+        "imp id": 1,
+        "full_implication": " -> English: split,English: divide",
+        "result": "Confirmed"
+    },
+    {
+        "imp id": 2,
+        "full_implication": "English: split,English: share,English: divide -> English: separate",
+        "unit_implication": "English: split,English: share,English: divide -> English: separate",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "meaning": "to give a portion of something to someone",
+                    "word": [
+                        "English: split",
+                        "English: share",
+                        "English: divide"
+                    ],
+                    "explanation": "The words 'English: split', 'English: share', and 'English: divide' all share the meaning of giving a portion of something to someone. This meaning is not shared by 'English: separate'. The general meaning of 'English: split' is to divide something into parts or to separate things. The general meaning of 'English: share' is to give a portion of something to someone or to have something in common with someone. The general meaning of 'English: divide' is to separate something into parts or to give a portion of something to someone. All these words are taken from the English language.",
+                    "example": "For example, 'I will split the cake with you' means to give you a portion of the cake. 'I will share my toys with you' means to give you some of my toys. 'I will divide the money between us' means to give each of us a portion of the money. However, 'I will separate the clothes' means to sort the clothes into different groups, but it does not necessarily mean giving a portion of something to someone."
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 999999,
+        "output_objects": [
+            "English: divide",
+            "English: share",
+            "English: split",
+            "English: separate"
+        ],
+        "output_attributes": [
+            "divide a single physical object into constituent parts",
+            "divide a set of elements into groups",
+            "mark the boundary",
+            "isolate constituent parts of a non-physical object",
+            "to give a portion of something to someone"
+        ],
+        "implication_count": 2,
+        "implications_skipped": 0,
+        "implications_confirmed": 1,
+        "implications_rejected": 1,
+        "invalid_counter_examples": 0,
+        "json_format_error": 0,
+        "word_already_present_error": 0
+    }
+]

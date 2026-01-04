@@ -1,0 +1,53 @@
+[
+    {
+        "imp id": 1,
+        "full_implication": " -> English: split,English: divide",
+        "result": "Confirmed"
+    },
+    {
+        "imp id": 2,
+        "full_implication": "English: share,English: split,English: divide -> English: separate",
+        "unit_implication": "English: share,English: split,English: divide -> English: separate",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "meaning": "to give part of something to somebody else",
+                    "word": [
+                        "English: share",
+                        "English: split",
+                        "English: divide"
+                    ],
+                    "explanation": "The word 'share' generally means to give part of something to somebody else. The word 'split' can also mean to divide something into parts and give or share it with others. Similarly, 'divide' can imply sharing or distributing something among people. However, 'separate' typically means to keep or put things apart, and does not inherently imply giving or sharing. The word 'separate' is taken from the English language.",
+                    "example": "For example, 'I will share the cake with you', 'Let's split the bill', 'We will divide the tasks among the team members'. In contrast, 'separate' would be used as 'Please separate the laundry before washing'."
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 999999,
+        "output_objects": [
+            "English: divide",
+            "English: share",
+            "English: split",
+            "English: separate"
+        ],
+        "output_attributes": [
+            "divide a single physical object into constituent parts",
+            "divide a set of elements into groups",
+            "mark the boundary",
+            "isolate constituent parts of a non-physical object",
+            "to give part of something to somebody else"
+        ],
+        "implication_count": 2,
+        "implications_skipped": 0,
+        "implications_confirmed": 1,
+        "implications_rejected": 1,
+        "invalid_counter_examples": 0,
+        "json_format_error": 0,
+        "word_already_present_error": 0
+    }
+]

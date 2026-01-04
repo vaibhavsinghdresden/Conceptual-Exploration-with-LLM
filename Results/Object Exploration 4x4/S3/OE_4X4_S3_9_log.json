@@ -1,0 +1,72 @@
+[
+    {
+        "imp id": 1,
+        "full_implication": " -> English: split,English: divide",
+        "result": "Confirmed"
+    },
+    {
+        "imp id": 2,
+        "full_implication": "English: split,English: divide,English: share -> English: separate",
+        "unit_implication": "English: split,English: divide,English: share -> English: separate",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "meaning": "to give a part of something to somebody",
+                    "word": [
+                        "English: split",
+                        "English: share"
+                    ],
+                    "explanation": "The words 'English: split' and 'English: share' can also mean to give a part of something to somebody, whereas 'English: divide' and 'English: separate' do not share this meaning. The word 'English: separate' generally means to isolate or detach something from something else, but it does not convey the idea of giving something to somebody. The word 'English: split' is taken from the English language and can have various meanings including to divide something into parts, but also to give a part of something to somebody, as in 'I will split the bill with you'. The word 'English: share' is also from the English language and generally means to give a part of something to somebody, as in 'I will share my food with you'.",
+                    "example": "For example, 'I will split the bill with you' means that I will give you a part of the bill to pay, and 'I will share my food with you' means that I will give you a part of my food to eat. On the other hand, 'I will divide the room into two parts' means that I will separate the room into two distinct areas, and 'I will separate the laundry' means that I will isolate the laundry from other clothes, but it does not convey the idea of giving something to somebody."
+                },
+                "attempt_outcome": "Invalid Counter example"
+            },
+            {
+                "try": 2,
+                "model_response": "{\n    \"output\": \"NO\",\n    \"meaning\": \"to distribute or dispense something\",\n    \"word\": [\"English: divide\", \"English: share\", \"English: split\", \"English: separate\" is not applicable to this meaning for \"English: split\", \"English: divide\", \"English: share\" in the context of the counter example, however \"English: separate\" is not applicable],\n    \"explanation\": \"The words 'English: divide', 'English: share', and 'English: split' can also mean to distribute or dispense something, however 'English: separate' generally means to isolate or detach something from something else, and does not convey the idea of distribution in the context of the counter example. The word 'English: divide' is taken from the English language and can have various meanings including to distribute something among people. The word 'English: share' is also from the English language and generally means to give a part of something to somebody, as in 'I will share my food with you'. The word 'English: split' is from the English language and can have various meanings including to divide something into parts and distribute it among people, as in 'I will split the bill with you'.\",\n    \"example\": \"For example, 'I will divide the cake among my friends' means that I will distribute the cake among my friends, 'I will share my toys with my brother' means that I will give my brother some of my toys, and 'I will split the money with my partner' means that I will divide the money into two parts and give one part to my partner. However, 'English: separate' does not convey this meaning in the context of the counter example.\"\n}",
+                "attempt_outcome": "Json decoder error"
+            },
+            {
+                "try": 3,
+                "model_response": {
+                    "output": "NO",
+                    "meaning": "to distribute or dispense something",
+                    "word": [
+                        "English: divide",
+                        "English: share",
+                        "English: split"
+                    ],
+                    "explanation": "The words 'English: divide', 'English: share', and 'English: split' can also mean to distribute or dispense something, however 'English: separate' generally means to isolate or detach something from something else, and does not convey the idea of distribution. The word 'English: divide' is taken from the English language and can have various meanings including to distribute something among people. The word 'English: share' is also from the English language and generally means to give a part of something to somebody. The word 'English: split' is from the English language and can have various meanings including to divide something into parts and distribute it among people.",
+                    "example": "For example, 'I will divide the cake among my friends' means that I will distribute the cake among my friends, 'I will share my toys with my brother' means that I will give my brother some of my toys, and 'I will split the money with my partner' means that I will divide the money into two parts and give one part to my partner."
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 999999,
+        "output_objects": [
+            "English: divide",
+            "English: share",
+            "English: split",
+            "English: separate"
+        ],
+        "output_attributes": [
+            "divide a single physical object into constituent parts",
+            "divide a set of elements into groups",
+            "mark the boundary",
+            "isolate constituent parts of a non-physical object",
+            "to distribute or dispense something"
+        ],
+        "implication_count": 2,
+        "implications_skipped": 0,
+        "implications_confirmed": 1,
+        "implications_rejected": 1,
+        "invalid_counter_examples": 1,
+        "json_format_error": 1,
+        "word_already_present_error": 0
+    }
+]

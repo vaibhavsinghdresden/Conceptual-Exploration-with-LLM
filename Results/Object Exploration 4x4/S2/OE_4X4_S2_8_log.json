@@ -1,0 +1,62 @@
+[
+    {
+        "imp id": 1,
+        "full_implication": " -> English: divide,English: split",
+        "result": "Confirmed"
+    },
+    {
+        "imp id": 2,
+        "full_implication": "English: divide,English: share,English: split -> English: separate",
+        "unit_implication": "English: divide,English: share,English: split -> English: separate",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "meaning": "to give part of something to someone else",
+                    "word": [
+                        "English: share"
+                    ]
+                },
+                "attempt_outcome": "Invalid Counter example"
+            },
+            {
+                "try": 2,
+                "model_response": {
+                    "output": "NO",
+                    "meaning": "to give out or serve as a portion of a whole",
+                    "word": [
+                        "English: share",
+                        "English: divide",
+                        "English: split"
+                    ]
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 999999,
+        "output_objects": [
+            "English: divide",
+            "English: share",
+            "English: split",
+            "English: separate"
+        ],
+        "output_attributes": [
+            "divide a single physical object into constituent parts",
+            "divide a set of elements into groups",
+            "mark the boundary",
+            "isolate constituent parts of a non-physical object",
+            "to give out or serve as a portion of a whole"
+        ],
+        "implication_count": 2,
+        "implications_skipped": 0,
+        "implications_confirmed": 1,
+        "implications_rejected": 1,
+        "invalid_counter_examples": 1,
+        "json_format_error": 0,
+        "word_already_present_error": 0
+    }
+]

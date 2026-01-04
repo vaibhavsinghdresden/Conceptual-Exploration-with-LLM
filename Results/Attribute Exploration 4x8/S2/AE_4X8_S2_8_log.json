@@ -1,0 +1,826 @@
+[
+    {
+        "imp id": 1,
+        "full_implication": "distribute among themselves -> distribute among others",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "YES"
+                },
+                "attempt_outcome": "Implication Accepted"
+            }
+        ],
+        "result": "Implication Confirmed"
+    },
+    {
+        "imp id": 2,
+        "full_implication": "distribute among others -> distribute among themselves",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "YES"
+                },
+                "attempt_outcome": "Implication Accepted"
+            }
+        ],
+        "result": "Implication Confirmed"
+    },
+    {
+        "imp id": 3,
+        "full_implication": "cause to move or be apart -> divide a set of elements into groups , mark the boundary , isolate constituent parts of a non-physical object",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "word": "English : separate",
+                    "meaning": [
+                        "cause to move or be apart",
+                        "divide a single physical object into constituent parts",
+                        "put into containers",
+                        "distribute among others"
+                    ]
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 4,
+        "full_implication": "cause to move or be apart , distribute among others , distribute among themselves -> mark the boundary , divide a set of elements into groups , divide a single physical object into constituent parts , isolate constituent parts of a non-physical object",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "word": "English : separate",
+                    "meaning": [
+                        "cause to move or be apart",
+                        "distribute among others",
+                        "distribute among themselves",
+                        "divide a set of elements into groups",
+                        "isolate constituent parts of a non-physical object"
+                    ]
+                },
+                "attempt_outcome": "Attribute already present error"
+            },
+            {
+                "try": 2,
+                "model_response": {
+                    "output": "NO",
+                    "word": "French : disperser",
+                    "meaning": [
+                        "cause to move or be apart",
+                        "distribute among others",
+                        "distribute among themselves"
+                    ]
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 5,
+        "full_implication": "distribute among others , put into containers , distribute among themselves -> mark the boundary , divide a set of elements into groups , divide a single physical object into constituent parts , isolate constituent parts of a non-physical object",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "word": "English : Sort",
+                    "meaning": [
+                        "distribute among others",
+                        "put into containers",
+                        "distribute among themselves",
+                        "divide a set of elements into groups"
+                    ]
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 6,
+        "full_implication": "cause to move or be apart , distribute among others , put into containers , distribute among themselves -> mark the boundary , divide a set of elements into groups , divide a single physical object into constituent parts , isolate constituent parts of a non-physical object",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "word": "English : Sort",
+                    "meaning": [
+                        "cause to move or be apart",
+                        "distribute among others",
+                        "put into containers",
+                        "distribute among themselves",
+                        "divide a set of elements into groups"
+                    ]
+                },
+                "attempt_outcome": "Attribute already present error"
+            },
+            {
+                "try": 2,
+                "model_response": {
+                    "output": "NO",
+                    "word": "Spanish : Repartir",
+                    "meaning": [
+                        "cause to move or be apart",
+                        "distribute among others",
+                        "put into containers",
+                        "distribute among themselves"
+                    ]
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 7,
+        "full_implication": "isolate constituent parts of a non-physical object -> divide a set of elements into groups , mark the boundary",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "YES"
+                },
+                "attempt_outcome": "Implication Accepted"
+            }
+        ],
+        "result": "Implication Confirmed"
+    },
+    {
+        "imp id": 8,
+        "full_implication": "mark the boundary -> divide a set of elements into groups , isolate constituent parts of a non-physical object",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "word": "English : boundary",
+                    "meaning": [
+                        "mark the boundary",
+                        "put into containers"
+                    ]
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 9,
+        "full_implication": "distribute among others , mark the boundary , distribute among themselves -> divide a set of elements into groups , divide a single physical object into constituent parts , isolate constituent parts of a non-physical object",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "word": "English : share",
+                    "meaning": [
+                        "distribute among others",
+                        "mark the boundary",
+                        "distribute among themselves",
+                        "put into containers",
+                        "cause to move or be apart"
+                    ]
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 10,
+        "full_implication": "cause to move or be apart , divide a set of elements into groups -> mark the boundary , isolate constituent parts of a non-physical object",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "word": "English : separate",
+                    "meaning": [
+                        "cause to move or be apart",
+                        "divide a set of elements into groups",
+                        "put into containers",
+                        "distribute among others"
+                    ]
+                },
+                "attempt_outcome": "Attribute already present error"
+            },
+            {
+                "try": 2,
+                "model_response": {
+                    "output": "NO",
+                    "word": "French : dissocier",
+                    "meaning": [
+                        "cause to move or be apart",
+                        "divide a set of elements into groups",
+                        "isolate constituent parts of a non-physical object",
+                        "distribute among themselves"
+                    ]
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 11,
+        "full_implication": "cause to move or be apart , put into containers , divide a set of elements into groups -> mark the boundary , isolate constituent parts of a non-physical object",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "word": "English : separate",
+                    "meaning": [
+                        "cause to move or be apart",
+                        "put into containers",
+                        "divide a set of elements into groups",
+                        "isolate constituent parts of a non-physical object"
+                    ]
+                },
+                "attempt_outcome": "Attribute already present error"
+            },
+            {
+                "try": 2,
+                "model_response": {
+                    "output": "NO",
+                    "word": "French : dispatcher",
+                    "meaning": [
+                        "cause to move or be apart",
+                        "put into containers",
+                        "divide a set of elements into groups",
+                        "distribute among others"
+                    ]
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 12,
+        "full_implication": "cause to move or be apart , distribute among others , put into containers , divide a set of elements into groups , distribute among themselves -> mark the boundary , divide a single physical object into constituent parts , isolate constituent parts of a non-physical object",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "word": "English : Sort",
+                    "meaning": [
+                        "cause to move or be apart",
+                        "distribute among others",
+                        "put into containers",
+                        "divide a set of elements into groups",
+                        "distribute among themselves"
+                    ]
+                },
+                "attempt_outcome": "Attribute already present error"
+            },
+            {
+                "try": 2,
+                "model_response": {
+                    "output": "NO",
+                    "word": "French : R\u00e9partir",
+                    "meaning": [
+                        "cause to move or be apart",
+                        "distribute among others",
+                        "put into containers",
+                        "divide a set of elements into groups",
+                        "distribute among themselves"
+                    ]
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 13,
+        "full_implication": "divide a set of elements into groups , mark the boundary -> isolate constituent parts of a non-physical object",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "YES"
+                },
+                "attempt_outcome": "Implication Accepted"
+            }
+        ],
+        "result": "Implication Confirmed"
+    },
+    {
+        "imp id": 14,
+        "full_implication": "distribute among others , divide a set of elements into groups , isolate constituent parts of a non-physical object , mark the boundary , distribute among themselves -> divide a single physical object into constituent parts",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "word": "English : separate",
+                    "meaning": [
+                        "distribute among others",
+                        "divide a set of elements into groups",
+                        "isolate constituent parts of a non-physical object",
+                        "mark the boundary",
+                        "distribute among themselves",
+                        "cause to move or be apart"
+                    ]
+                },
+                "attempt_outcome": "Attribute already present error"
+            },
+            {
+                "try": 2,
+                "model_response": {
+                    "output": "NO",
+                    "word": "French : r\u00e9partir",
+                    "meaning": [
+                        "distribute among others",
+                        "divide a set of elements into groups",
+                        "isolate constituent parts of a non-physical object",
+                        "mark the boundary",
+                        "distribute among themselves",
+                        "put into containers"
+                    ]
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 15,
+        "full_implication": "cause to move or be apart , distribute among others , divide a set of elements into groups , isolate constituent parts of a non-physical object , mark the boundary , distribute among themselves -> divide a single physical object into constituent parts",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "word": "English : separate",
+                    "meaning": [
+                        "cause to move or be apart",
+                        "distribute among others",
+                        "divide a set of elements into groups",
+                        "isolate constituent parts of a non-physical object",
+                        "mark the boundary",
+                        "distribute among themselves",
+                        "put into containers"
+                    ]
+                },
+                "attempt_outcome": "Attribute already present error"
+            },
+            {
+                "try": 2,
+                "model_response": {
+                    "output": "NO",
+                    "word": "French : dissocier",
+                    "meaning": [
+                        "cause to move or be apart",
+                        "distribute among others",
+                        "divide a set of elements into groups",
+                        "isolate constituent parts of a non-physical object",
+                        "mark the boundary",
+                        "distribute among themselves"
+                    ]
+                },
+                "attempt_outcome": "Attribute already present error"
+            },
+            {
+                "try": 3,
+                "model_response": {
+                    "output": "NO",
+                    "word": "Spanish : segregar",
+                    "meaning": [
+                        "cause to move or be apart",
+                        "distribute among others",
+                        "divide a set of elements into groups",
+                        "isolate constituent parts of a non-physical object",
+                        "mark the boundary",
+                        "distribute among themselves"
+                    ]
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 16,
+        "full_implication": "cause to move or be apart , distribute among others , put into containers , divide a set of elements into groups , isolate constituent parts of a non-physical object , mark the boundary , distribute among themselves -> divide a single physical object into constituent parts",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "word": "English : Sort",
+                    "meaning": [
+                        "cause to move or be apart",
+                        "distribute among others",
+                        "put into containers",
+                        "divide a set of elements into groups",
+                        "isolate constituent parts of a non-physical object",
+                        "mark the boundary",
+                        "distribute among themselves",
+                        "divide a set of elements into groups"
+                    ]
+                },
+                "attempt_outcome": "Attribute already present error"
+            },
+            {
+                "try": 2,
+                "model_response": {
+                    "output": "NO",
+                    "word": "French : Classifier",
+                    "meaning": [
+                        "cause to move or be apart",
+                        "distribute among others",
+                        "put into containers",
+                        "divide a set of elements into groups",
+                        "isolate constituent parts of a non-physical object",
+                        "mark the boundary",
+                        "distribute among themselves"
+                    ]
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 17,
+        "full_implication": "divide a single physical object into constituent parts -> distribute among others",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "word": "English : chop",
+                    "meaning": [
+                        "divide a single physical object into constituent parts",
+                        "cause to move or be apart"
+                    ]
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 18,
+        "full_implication": "distribute among others , divide a single physical object into constituent parts , distribute among themselves -> mark the boundary , divide a set of elements into groups , isolate constituent parts of a non-physical object",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "word": "English : share",
+                    "meaning": [
+                        "distribute among others",
+                        "divide a single physical object into constituent parts",
+                        "distribute among themselves",
+                        "put into containers",
+                        "cause to move or be apart"
+                    ]
+                },
+                "attempt_outcome": "Attribute already present error"
+            },
+            {
+                "try": 2,
+                "model_response": {
+                    "output": "NO",
+                    "word": "French : r\u00e9partir",
+                    "meaning": [
+                        "distribute among others",
+                        "divide a single physical object into constituent parts",
+                        "distribute among themselves",
+                        "cause to move or be apart",
+                        "put into containers"
+                    ]
+                },
+                "attempt_outcome": "Attribute already present error"
+            },
+            {
+                "try": 3,
+                "model_response": {
+                    "output": "NO",
+                    "word": "Spanish : dividir",
+                    "meaning": [
+                        "distribute among others",
+                        "divide a single physical object into constituent parts",
+                        "distribute among themselves",
+                        "cause to move or be apart"
+                    ]
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 19,
+        "full_implication": "put into containers , divide a single physical object into constituent parts -> distribute among others",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "word": "English : partition",
+                    "meaning": [
+                        "put into containers",
+                        "divide a single physical object into constituent parts",
+                        "mark the boundary",
+                        "isolate constituent parts of a non-physical object"
+                    ]
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 20,
+        "full_implication": "distribute among others , put into containers , divide a single physical object into constituent parts , distribute among themselves -> mark the boundary , divide a set of elements into groups , isolate constituent parts of a non-physical object",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "word": "English : separate",
+                    "meaning": [
+                        "distribute among others",
+                        "put into containers",
+                        "divide a single physical object into constituent parts",
+                        "distribute among themselves",
+                        "cause to move or be apart"
+                    ]
+                },
+                "attempt_outcome": "Attribute already present error"
+            },
+            {
+                "try": 2,
+                "model_response": {
+                    "output": "NO",
+                    "word": "French : dispenser",
+                    "meaning": [
+                        "distribute among others",
+                        "put into containers",
+                        "divide a single physical object into constituent parts",
+                        "distribute among themselves",
+                        "cause to move or be apart"
+                    ]
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 21,
+        "full_implication": "cause to move or be apart , put into containers , divide a single physical object into constituent parts -> distribute among others",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "word": "English : separate",
+                    "meaning": [
+                        "cause to move or be apart",
+                        "put into containers",
+                        "divide a single physical object into constituent parts",
+                        "mark the boundary",
+                        "isolate constituent parts of a non-physical object"
+                    ]
+                },
+                "attempt_outcome": "Attribute already present error"
+            },
+            {
+                "try": 2,
+                "model_response": {
+                    "output": "NO",
+                    "word": "French : dissocier",
+                    "meaning": [
+                        "cause to move or be apart",
+                        "put into containers",
+                        "divide a single physical object into constituent parts",
+                        "isolate constituent parts of a non-physical object"
+                    ]
+                },
+                "attempt_outcome": "Attribute already present error"
+            },
+            {
+                "try": 3,
+                "model_response": {
+                    "output": "NO",
+                    "word": "Spanish : desmembrar",
+                    "meaning": [
+                        "cause to move or be apart",
+                        "put into containers",
+                        "divide a single physical object into constituent parts",
+                        "mark the boundary"
+                    ]
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 22,
+        "full_implication": "distribute among others , divide a single physical object into constituent parts , mark the boundary , distribute among themselves -> divide a set of elements into groups , isolate constituent parts of a non-physical object",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "word": "French : partager",
+                    "meaning": [
+                        "distribute among others",
+                        "divide a single physical object into constituent parts",
+                        "mark the boundary",
+                        "distribute among themselves",
+                        "put into containers"
+                    ]
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 23,
+        "full_implication": "cause to move or be apart , distribute among others , divide a single physical object into constituent parts , mark the boundary , distribute among themselves -> divide a set of elements into groups , isolate constituent parts of a non-physical object",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "word": "English : separate",
+                    "meaning": [
+                        "cause to move or be apart",
+                        "distribute among others",
+                        "divide a single physical object into constituent parts",
+                        "mark the boundary",
+                        "distribute among themselves",
+                        "put into containers"
+                    ]
+                },
+                "attempt_outcome": "Attribute already present error"
+            },
+            {
+                "try": 2,
+                "model_response": {
+                    "output": "NO",
+                    "word": "French : s\u00e9parer",
+                    "meaning": [
+                        "cause to move or be apart",
+                        "distribute among others",
+                        "divide a single physical object into constituent parts",
+                        "mark the boundary",
+                        "distribute among themselves"
+                    ]
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 24,
+        "full_implication": "cause to move or be apart , distribute among others , put into containers , divide a single physical object into constituent parts , mark the boundary , distribute among themselves -> divide a set of elements into groups , isolate constituent parts of a non-physical object",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "word": "English : separate",
+                    "meaning": [
+                        "cause to move or be apart",
+                        "distribute among others",
+                        "put into containers",
+                        "divide a single physical object into constituent parts",
+                        "mark the boundary",
+                        "distribute among themselves",
+                        "divide a set of elements into groups"
+                    ]
+                },
+                "attempt_outcome": "Attribute already present error"
+            },
+            {
+                "try": 2,
+                "model_response": {
+                    "output": "NO",
+                    "word": "French : dispenser",
+                    "meaning": [
+                        "cause to move or be apart",
+                        "distribute among others",
+                        "put into containers",
+                        "divide a single physical object into constituent parts",
+                        "mark the boundary",
+                        "distribute among themselves"
+                    ]
+                },
+                "attempt_outcome": "Attribute already present error"
+            },
+            {
+                "try": 3,
+                "model_response": {
+                    "output": "NO",
+                    "word": "Spanish : dividir",
+                    "meaning": [
+                        "cause to move or be apart",
+                        "distribute among others",
+                        "put into containers",
+                        "divide a single physical object into constituent parts",
+                        "mark the boundary",
+                        "distribute among themselves",
+                        "divide a set of elements into groups"
+                    ]
+                },
+                "attempt_outcome": "Attribute already present error"
+            }
+        ],
+        "result": "Implication Skipped"
+    },
+    {
+        "imp id": 25,
+        "full_implication": "divide a set of elements into groups , divide a single physical object into constituent parts -> distribute among others , mark the boundary , isolate constituent parts of a non-physical object , distribute among themselves",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "word": "German : trennen",
+                    "meaning": [
+                        "cause to move or be apart",
+                        "distribute among others",
+                        "put into containers",
+                        "divide a single physical object into constituent parts",
+                        "mark the boundary",
+                        "distribute among themselves"
+                    ]
+                },
+                "attempt_outcome": "Invalid Counter example"
+            },
+            {
+                "try": 2,
+                "model_response": {
+                    "output": "YES"
+                },
+                "attempt_outcome": "Implication Accepted"
+            }
+        ],
+        "result": "Implication Confirmed"
+    },
+    {
+        "imp id": 999999,
+        "output_objects": [
+            "English: divide",
+            "English: share",
+            "English: split",
+            "English: separate",
+            "English : separate",
+            "French : disperser",
+            "English : Sort",
+            "Spanish : Repartir",
+            "English : boundary",
+            "English : share",
+            "French : dissocier",
+            "French : dispatcher",
+            "French : R\u00e9partir",
+            "French : r\u00e9partir",
+            "Spanish : segregar",
+            "French : Classifier",
+            "English : chop",
+            "Spanish : dividir",
+            "English : partition",
+            "French : dispenser",
+            "Spanish : desmembrar",
+            "French : partager",
+            "French : s\u00e9parer"
+        ],
+        "output_attributes": [
+            "divide a single physical object into constituent parts",
+            "divide a set of elements into groups",
+            "mark the boundary",
+            "isolate constituent parts of a non-physical object",
+            "put into containers",
+            "cause to move or be apart",
+            "distribute among others",
+            "distribute among themselves"
+        ],
+        "implication_count": 25,
+        "implications_skipped": 1,
+        "implications_confirmed": 5,
+        "implications_rejected": 19,
+        "invalid_counter_examples": 1,
+        "json_format_error": 0,
+        "word_already_present_error": 18
+    }
+]

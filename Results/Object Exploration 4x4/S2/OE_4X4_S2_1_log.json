@@ -1,0 +1,85 @@
+[
+    {
+        "imp id": 1,
+        "full_implication": " -> English: split,English: divide",
+        "result": "Confirmed"
+    },
+    {
+        "imp id": 2,
+        "full_implication": "English: share,English: split,English: divide -> Russian: razluchat'",
+        "unit_implication": "English: share,English: split,English: divide -> Russian: razluchat'",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "meaning": "to separate or part company",
+                    "word": [
+                        "English: divide",
+                        "English: split"
+                    ]
+                },
+                "attempt_outcome": "Invalid Counter example"
+            },
+            {
+                "try": 2,
+                "model_response": {
+                    "output": "NO",
+                    "meaning": "to separate or part company",
+                    "word": [
+                        "English: share",
+                        "English: split",
+                        "English: divide"
+                    ]
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 3,
+        "full_implication": "Russian: razluchat',English: split,English: divide -> English: share",
+        "unit_implication": "Russian: razluchat',English: split,English: divide -> English: share",
+        "exploration_output": [
+            {
+                "try": 1,
+                "model_response": {
+                    "output": "NO",
+                    "meaning": "to separate or part",
+                    "word": [
+                        "Russian: razluchat'",
+                        "English: split",
+                        "English: divide"
+                    ]
+                },
+                "attempt_outcome": "Valid Counter Example"
+            }
+        ],
+        "result": "Implication Rejected"
+    },
+    {
+        "imp id": 999999,
+        "output_objects": [
+            "Russian: razluchat'",
+            "English: divide",
+            "English: share",
+            "English: split"
+        ],
+        "output_attributes": [
+            "divide a single physical object into constituent parts",
+            "divide a set of elements into groups",
+            "mark the boundary",
+            "isolate constituent parts of a non-physical object",
+            "to separate or part company",
+            "to separate or part"
+        ],
+        "implication_count": 3,
+        "implications_skipped": 0,
+        "implications_confirmed": 1,
+        "implications_rejected": 2,
+        "invalid_counter_examples": 1,
+        "json_format_error": 0,
+        "word_already_present_error": 0
+    }
+]
